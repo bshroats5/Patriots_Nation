@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>{{ post.title }}</title>
+</head>
+<body>
+    <header>
+        <h1>Cumberlands Patriots Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    <h1>{{ post.title }}</h1>
+    <p><strong>Date:</strong> {{ post.date }}</p>
+    <p><strong>Author:</strong> {{ post.author }}</p>
+    <p>{{ post.content.replace('\n', '<br>')|safe }}</p>
+</body>
+</html>
