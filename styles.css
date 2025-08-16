@@ -55,7 +55,7 @@ nav {
     top: 0;
     z-index: 1000;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* logo left, links right */
     align-items: center;
 }
 
@@ -93,15 +93,24 @@ nav ul li a:hover {
 }
 
 /* Logo inside the navbar */
+/* LOGO in navbar */
 nav .logo img {
-    height: 60px;         /* Adjust to fit nicely in the navbar */
-    width: auto;          /* Keeps proportions */
+    height: 70px;         /* try 70–80px, adjust to taste */
+    width: auto;          /* prevent stretching */
     display: block;
 }
 
+/* Add some spacing around the logo */
 nav .logo {
+    margin-right: var(--spacing-large); 
     display: flex;
-    align-items: center;
+    align-items: center; /* vertically centers it */
+}
+
+@media (max-width: 768px) {
+  nav .logo img {
+    height: 50px;
+  }
 }
 
 /* HERO HEADLINE  */
