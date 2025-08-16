@@ -92,6 +92,18 @@ nav ul li a:hover {
     background-color: var(--patriot-red);
 }
 
+/* Logo inside the navbar */
+nav .logo img {
+    height: 60px;         /* Adjust to fit nicely in the navbar */
+    width: auto;          /* Keeps proportions */
+    display: block;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
 /* HERO HEADLINE  */
 h1 {
     font-family: var(--font-heading);
