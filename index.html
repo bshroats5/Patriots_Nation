@@ -21,18 +21,15 @@
 
   <h1>Welcome to Patriots Nation!</h1>
 
-  <img src="images/UC Football.png" alt="Picture of the University of the Cumberlands Football Stadium.">
+<img class="hero-image"
+     src="images/UC Football.png"
+     alt="University of the Cumberlands football stadium">
   <figcaption style="font-size: small; color: #555;">Photo credit: University of the Cumberlands</figcaption>
   <br>
 
 
   <p>Welcome to the only site for the University of the Cumberlands Patriots and campus.
     This site is created by fans for the fans. </p>
-
-<div class="hero-cta">
-  <a href="#latest-news" class="btn btn-primary">Latest News</a>
-  <a href="#scores" class="btn btn-secondary">Recent Scores</a>
-</div>
 
 <!-- Latest News Section -->
 <section class="content-section" id="latest-news">
@@ -50,7 +47,7 @@
         </div>
       </article>
       
-      <div class="news-sidebar">
+      <!-- <div class="news-sidebar">
         <article class="news-item">
           <span class="sport-tag basketball">BASKETBALL</span>
           <h4>Men's Basketball Extends Win Streak to 7 Games</h4>
@@ -64,7 +61,7 @@
         <article class="news-item">
           <span class="sport-tag volleyball">VOLLEYBALL</span>
           <h4>Volleyball Season Recap: A Year to Remember</h4>
-          <p class="date">December 7, 2024</p>
+          <p class="date">December 7, 2024</p> -->
         </article>
       </div>
     </div>
@@ -75,25 +72,40 @@
 <section class="game-center" id="scores">
   <div class="scorestream-widget-container" data-ss_widget_type="vertScoreboard" style="height:600px;" data-user-widget-id="65793"></div><script async="async" type="text/javascript" src="https://scorestream.com/apiJsCdn/widgets/embed.js"></script>
 <!-- Social Section -->
+<!-- Social Section -->
 <section class="social-section">
   <div class="container">
     <h2 class="section-title">Connect With Patriots Nation</h2>
     <div class="social-grid">
       <div class="twitter-feed">
-        <a href="https://twitter.com/intent/tweet?button_hashtag=UCPatsNation&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #UCPatsNation</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <a class="twitter-timeline" data-height="400" href="https://twitter.com/UCPatsNation">
-          Loading tweets...
+        <a class="twitter-timeline" 
+           data-width="500"
+           data-height="400" 
+           data-theme="light"
+           data-link-color="#C8102E"
+           href="https://twitter.com/UCPatsNation?ref_src=twsrc%5Etfw">
+          Tweets by @UCPatsNation
         </a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       <div class="social-cta">
         <h3>Join the Conversation</h3>
         <p>Follow us for real-time updates, game highlights, and exclusive content!</p>
         <div class="social-buttons">
-          <a href="#" class="social-btn twitter">Follow
+          <a href="https://twitter.com/UCPatsNation" class="social-btn twitter" target="_blank">
+            Follow @UCPatsNation
+          </a>
+          <a href="https://twitter.com/intent/tweet?text=Go%20Patriots!&hashtags=UCPatsNation" class="social-btn" target="_blank">
+            Tweet #UCPatsNation
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <footer>
   <p>&copy; 2025 Patriots Nation</p>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </footer>
 </body>
 </html>
