@@ -101,15 +101,16 @@ nav .logo img {
 }
 
 /* Add some spacing around the logo */
-nav .logo {
-    margin-right: var(--spacing-large); 
-    display: flex;
-    align-items: center; /* vertically centers it */
+/* LOGO in navbar */
+nav .logo img {
+    height: 100px;         /* <-- THIS IS THE LINE TO CHANGE */
+    width: auto;          /* prevent stretching */
+    display: block;
 }
 
 @media (max-width: 768px) {
   nav .logo img {
-    height: 50px;
+    height: 65px;
   }
 }
 
