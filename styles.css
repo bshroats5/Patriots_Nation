@@ -1,0 +1,158 @@
+/* ===================================
+   PATRIOTS NATION CSS
+   University of the Cumberlands Fan Site
+   =================================== */
+
+/* === CSS RESET === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* === IMPORT GOOGLE FONTS === */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+/* === CSS VARIABLES === */
+:root {
+    /* Colors */
+    --navy-blue: #002D62;
+    --patriot-red: #C8102E;
+    --light-gray: #F4F4F4;
+    --white: #FFFFFF;
+    --charcoal: #333333;
+    --medium-gray: #666666;
+    
+    /* Fonts */
+    --font-heading: 'Oswald', sans-serif;
+    --font-body: 'Lato', sans-serif;
+    
+    /* Spacing */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+    --spacing-xlarge: 32px;
+}
+
+/* === BASE STYLES === */
+body {
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--charcoal);
+    background-color: var(--light-gray);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* === NAVIGATION === */
+nav {
+    background-color: var(--navy-blue);
+    padding: var(--spacing-medium) var(--spacing-xlarge);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > a {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--white);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    color: var(--patriot-red);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: var(--spacing-small);
+}
+
+nav ul li a {
+    color: var(--white);
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: var(--spacing-small) var(--spacing-medium);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: var(--patriot-red);
+    color: var(--white);
+}
+
+/* === MAIN CONTENT === */
+main {
+    flex: 1;
+}
+
+h1 {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    color: var(--patriot-red);
+    text-align: center;
+    text-transform: uppercase;
+    margin: var(--spacing-xlarge) 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Hero Image */
+img {
+    display: block;
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto var(--spacing-xlarge) auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+figcaption {
+    font-size: small;
+    color: #555;
+    text-align: center;
+}
+
+/* Welcome Paragraph */
+body > p {
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto var(--spacing-xlarge) auto;
+    padding: 0 var(--spacing-medium);
+}
+
+/* === SECTIONS === */
+section {
+    background-color: var(--white);
+    max-width: 1000px;
+    margin: 0 auto var(--spacing-large) auto;
+    padding: var(--spacing-xlarge);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    color: var(--navy-blue);
+    text-transform: uppercase;
+    margin-bottom: var(--spacing-medium);
+    padding-bottom: var
+}
+
+.game-center {
+    text-align: left;
+}
