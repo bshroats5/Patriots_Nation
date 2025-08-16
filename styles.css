@@ -103,12 +103,23 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0,0,0,.08);
 }
 
-/* HERO IMAGE */
-.hero-image {
-    width: 90%;                  /* stays flexible */
-    max-width: 1000px;           /* never exceeds this */
+/* HERO IMAGE & CAPTION */
+figure.hero {
+    width: 90%;
+    max-width: 1000px;      /* same size control you chose */
+    margin: 0 auto var(--spacing-xlarge); /* centers block */
+    text-align: center;     /* centers caption inside block */
+}
+
+figure.hero img {
+    width: 100%;
     height: auto;
-    margin: 0 auto var(--spacing-xlarge);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,.2);
+}
+
+figure.hero figcaption {
+    font-size: .85rem;
+    color: #555;
+    margin-top: var(--spacing-small);
 }
