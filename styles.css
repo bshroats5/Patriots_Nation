@@ -287,3 +287,29 @@ figure.hero figcaption {
 .carousel-dot:hover {
     background-color: white;
 }
+
+.social-btn {
+    /* ... your existing .social-btn styles ... */
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 5px;
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    margin: 5px;
+    transition: transform 0.2s ease;
+}
+
+.social-btn:hover {
+    transform: translateY(-2px);
+}
+
+.social-btn.twitter {
+    background-color: #1DA1F2; /* Twitter Blue */
+}
+
+/* ✅ ADD THIS NEW RULE FOR THE REDDIT BUTTON */
+.social-btn.reddit {
+    background-color: #FF4500; /* Reddit Orange-Red */
+}

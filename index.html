@@ -8,17 +8,14 @@
 </head>
 <body>
   <!-- NAVIGATION -->
-  <nav>
-    <a href="index.html" class="logo">
-      <img src="images/PN_Logo.png" alt="Patriots Nation Logo">
-    </a>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#posts">Posts</a></li>
-      <li><a href="#news">Events</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+<!-- In your <nav> section -->
+<ul>
+  <li><a href="#about">About</a></li>
+  <li><a href="#posts">Posts</a></li>
+  <li><a href="#news">Events</a></li>
+  <li><a href="https://www.reddit.com/r/CumberlandsPatriots/" target="_blank">Community</a></li> <!-- Or "Forums" or "Reddit" -->
+  <li><a href="#contact">Contact</a></li>
+</ul>
 
   <!-- HERO -->
   <h1>Welcome to Patriots Nation!</h1>
@@ -66,40 +63,27 @@
   </section> <!-- ✅ missing closing tag added here -->
 
   <!-- SOCIAL SECTION -->
-  <section class="social-section">
-    <div class="container">
-      <h2 class="section-title">Connect With Patriots Nation</h2>
-      <div class="social-grid">
-        <div class="twitter-feed">
-          <a class="twitter-timeline" 
-             data-width="500"
-             data-height="400" 
-             data-theme="light"
-             data-link-color="#C8102E"
-             href="https://twitter.com/UCPatsNation?ref_src=twsrc%5Etfw">
-            Tweets by @UCPatsNation
-          </a>
-        </div>
-        <div class="social-cta">
-          <h3>Join the Conversation</h3>
-          <p>Follow us for real-time updates, game highlights, and exclusive content!</p>
-          <div class="social-buttons">
-            <a href="https://twitter.com/UCPatsNation" class="social-btn twitter" target="_blank">
-              Follow @UCPatsNation
-            </a>
-            <a href="https://twitter.com/intent/tweet?text=Go%20Patriots!&hashtags=UCPatsNation" class="social-btn" target="_blank">
-              Tweet #UCPatsNation
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<!-- Inside the .social-section -->
+<div class="social-buttons">
+  <a href="https://twitter.com/UCPatsNation" class="social-btn twitter" target="_blank">
+    Follow @UCPatsNation
+  </a>
+  <a href="https://twitter.com/intent/tweet?text=Go%20Patriots!&hashtags=UCPatsNation" class="social-btn" target="_blank">
+    Tweet #UCPatsNation
+  </a>
+  
+  <!-- ✅ ADD THIS NEW BUTTON -->
+  <a href="https://www.reddit.com/r/UCPatriots/" class="social-btn reddit" target="_blank">
+    Join us on Reddit
+  </a>
+</div>
 
   <!-- FOOTER -->
   <footer>
-    <p>&copy; 2025 Patriots Nation</p>
-  </footer>
+<!-- In your <footer> section -->
+<footer>
+  <p>&copy; 2025 Patriots Nation | <a href="https://www.reddit.com/r/UCPatriots/" target="_blank">Join the Community on Reddit</a></p>
+</footer>  </footer>
 
   <!-- Load Twitter script -->
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
