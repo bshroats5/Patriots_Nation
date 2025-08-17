@@ -92,14 +92,6 @@ nav ul li a:hover {
     background-color: var(--patriot-red);
 }
 
-/* Logo inside the navbar */
-/* LOGO in navbar */
-nav .logo img {
-    height: 70px;         /* try 70–80px, adjust to taste */
-    width: auto;          /* prevent stretching */
-    display: block;
-}
-
 /* Add some spacing around the logo */
 /* LOGO in navbar */
 nav .logo img {
@@ -126,22 +118,172 @@ h1 {
 }
 
 /* HERO IMAGE & CAPTION */
+/* HERO IMAGE & CAPTION - CROPPED FOR SHORTER HEIGHT */
 figure.hero {
-    width: 90%;
-    max-width: 1000px;      /* same size control you chose */
-    margin: 0 auto var(--spacing-xlarge); /* centers block */
-    text-align: center;     /* centers caption inside block */
+    width: 100%; /* Keep it full-width */
+    max-height: 550px;  /* <-- THIS IS YOUR NEW HEIGHT CONTROL! Adjust as needed. */
+    margin: 0 auto var(--spacing-xlarge);
+    overflow: hidden;   /* Hides the parts of the image that are too tall */
+    position: relative; /* Needed for the caption */
+    text-align: center;
 }
 
 figure.hero img {
     width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,.2);
+    height: 100%;
+    object-fit: cover; /* This is the magic part! */
+    object-position: center; /* Ensures the middle of the image is shown */
 }
 
+/* Optional: We need to adjust the caption to sit on top of the image */
 figure.hero figcaption {
-    font-size: .85rem;
-    color: #555;
-    margin-top: var(--spacing-small);
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: .8rem;
+}
+
+/* ===================================
+   NEWS CAROUSEL STYLES
+   =================================== */
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 900px; /* Adjust max-width as needed */
+    margin: 0 auto;
+    overflow: hidden; /* This is crucial for hiding other slides */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.carousel-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    color: var(--white);
+    min-height: 400px; /* Ensure a consistent height */
+    display: flex;
+    align-items: flex-end; /* Position content at the bottom */
+}
+
+.carousel-slide::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 60%);
+    z-index: 1;
+}
+
+.carousel-slide img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.carousel-content {
+    position: relative;
+    z-index: 2;
+    padding: var(--spacing-large);
+}
+
+.carousel-content h3 {
+    color: var(--white);
+    font-size: 2rem;
+    margin-bottom: var(--spacing-small);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.carousel-content .date {
+    color: rgba(255,255,255,0.8);
+    margin-bottom: var(--spacing-medium);
+}
+
+.carousel-content a.read-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--patriot-red);
+    color: var(--white);
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-content a.read-more-btn:hover {
+    background-color: var(--navy-blue);
+}
+
+/* Navigation Buttons */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: background-color 0.3s;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-btn.prev {
+    left: 15px;
+}
+
+.carousel-btn.next {
+    right: 15px;
+}
+
+/* Navigation Dots */
+.carousel-nav {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+}
+
+.carousel-dot {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carousel-dot.active,
+.carousel-dot:hover {
+    background-color: white;
 }

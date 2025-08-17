@@ -7,108 +7,217 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<nav>
-  <a href="index.html" class="logo">
-    <img src="images/PN_Logo.png" alt="Patriots Nation Logo">
-  </a>
-  <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#posts">Posts</a></li>
-    <li><a href="#news">Events</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="index.html" class="logo">
+      <img src="images/PN_Logo.png" alt="Patriots Nation Logo">
+    </a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#posts">Posts</a></li>
+      <li><a href="#news">Events</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-
-
+  <!-- HERO -->
   <h1>Welcome to Patriots Nation!</h1>
+  <figure class="hero">
+    <img src="images/UC Football.png"
+         alt="University of the Cumberlands Football Stadium">
+    <figcaption>Photo credit: University of the Cumberlands</figcaption>
+  </figure>
 
-<figure class="hero">
-  <img src="images/UC Football.png"
-       alt="University of the Cumberlands Football Stadium">
-  <figcaption>Photo credit: University of the Cumberlands</figcaption>
-</figure>
-  <br>
+  <p>
+    Welcome to the only site for the University of the Cumberlands Patriots and campus.
+    This site is created by fans for the fans.
+  </p>
 
-
-  <p>Welcome to the only site for the University of the Cumberlands Patriots and campus.
-    This site is created by fans for the fans. </p>
-
-<!-- Latest News Section -->
-<section class="content-section" id="latest-news">
+  <!-- LATEST NEWS -->
+  <!-- Latest News Section -->
+<section id="latest-news">
   <div class="container">
     <h2 class="section-title">Latest Patriots News</h2>
-    <div class="news-grid">
-      <article class="news-featured">
-        <img src="news-placeholder.jpg" alt="Featured story">
-        <div class="news-content">
-          <span class="sport-tag">FOOTBALL</span>
-          <h3>Patriots Win Conference Championship!</h3>
-          <p class="date">December 10, 2024</p>
-          <p>The University of the Cumberlands Patriots defeated Lindsey Wilson 35-21 to claim...</p>
-          <a href="#" class="read-more">Continue Reading →</a>
-        </div>
-      </article>
+    
+    <div class="carousel-container">
+      <div class="carousel-slider">
+        <!-- News articles will be injected here by JavaScript -->
+      </div>
       
-      <!-- <div class="news-sidebar">
-        <article class="news-item">
-          <span class="sport-tag basketball">BASKETBALL</span>
-          <h4>Men's Basketball Extends Win Streak to 7 Games</h4>
-          <p class="date">December 9, 2024</p>
-        </article>
-        <article class="news-item">
-          <span class="sport-tag">WRESTLING</span>
-          <h4>Three Patriots Qualify for National Tournament</h4>
-          <p class="date">December 8, 2024</p>
-        </article>
-        <article class="news-item">
-          <span class="sport-tag volleyball">VOLLEYBALL</span>
-          <h4>Volleyball Season Recap: A Year to Remember</h4>
-          <p class="date">December 7, 2024</p> -->
-        </article>
+      <!-- Navigation Buttons -->
+      <button class="carousel-btn prev" aria-label="Previous Story">&lt;</button>
+      <button class="carousel-btn next" aria-label="Next Story">&gt;</button>
+      
+      <!-- Navigation Dots -->
+      <div class="carousel-nav">
+        <!-- Dots will be injected here by JavaScript -->
       </div>
     </div>
   </div>
 </section>
 
-<!-- Game Center Section -->
-<section class="game-center" id="scores">
-  <div class="scorestream-widget-container" data-ss_widget_type="vertScoreboard" style="height:600px;" data-user-widget-id="65793"></div><script async="async" type="text/javascript" src="https://scorestream.com/apiJsCdn/widgets/embed.js"></script>
-<!-- Social Section -->
-<!-- Social Section -->
-<section class="social-section">
-  <div class="container">
-    <h2 class="section-title">Connect With Patriots Nation</h2>
-    <div class="social-grid">
-      <div class="twitter-feed">
-        <a class="twitter-timeline" 
-           data-width="500"
-           data-height="400" 
-           data-theme="light"
-           data-link-color="#C8102E"
-           href="https://twitter.com/UCPatsNation?ref_src=twsrc%5Etfw">
-          Tweets by @UCPatsNation
-        </a>
-      </div>
-      <div class="social-cta">
-        <h3>Join the Conversation</h3>
-        <p>Follow us for real-time updates, game highlights, and exclusive content!</p>
-        <div class="social-buttons">
-          <a href="https://twitter.com/UCPatsNation" class="social-btn twitter" target="_blank">
-            Follow @UCPatsNation
+  <!-- GAME CENTER -->
+  <section class="game-center" id="scores">
+    <div class="scorestream-widget-container"
+         data-ss_widget_type="vertScoreboard"
+         style="height:600px;"
+         data-user-widget-id="65793"></div>
+    <script async type="text/javascript" src="https://scorestream.com/apiJsCdn/widgets/embed.js"></script>
+  </section> <!-- ✅ missing closing tag added here -->
+
+  <!-- SOCIAL SECTION -->
+  <section class="social-section">
+    <div class="container">
+      <h2 class="section-title">Connect With Patriots Nation</h2>
+      <div class="social-grid">
+        <div class="twitter-feed">
+          <a class="twitter-timeline" 
+             data-width="500"
+             data-height="400" 
+             data-theme="light"
+             data-link-color="#C8102E"
+             href="https://twitter.com/UCPatsNation?ref_src=twsrc%5Etfw">
+            Tweets by @UCPatsNation
           </a>
-          <a href="https://twitter.com/intent/tweet?text=Go%20Patriots!&hashtags=UCPatsNation" class="social-btn" target="_blank">
-            Tweet #UCPatsNation
-          </a>
+        </div>
+        <div class="social-cta">
+          <h3>Join the Conversation</h3>
+          <p>Follow us for real-time updates, game highlights, and exclusive content!</p>
+          <div class="social-buttons">
+            <a href="https://twitter.com/UCPatsNation" class="social-btn twitter" target="_blank">
+              Follow @UCPatsNation
+            </a>
+            <a href="https://twitter.com/intent/tweet?text=Go%20Patriots!&hashtags=UCPatsNation" class="social-btn" target="_blank">
+              Tweet #UCPatsNation
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<footer>
-  <p>&copy; 2025 Patriots Nation</p>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</footer>
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Patriots Nation</p>
+  </footer>
+
+  <!-- Load Twitter script -->
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <!-- CAROUSEL SCRIPT -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const carouselSlider = document.querySelector('.carousel-slider');
+      const carouselNav = document.querySelector('.carousel-nav');
+      const prevBtn = document.querySelector('.carousel-btn.prev');
+      const nextBtn = document.querySelector('.carousel-btn.next');
+
+      let posts = [];
+      let currentIndex = 0;
+      let slideInterval;
+
+      // Fetch data and build the carousel
+      async function fetchAndBuildCarousel() {
+        try {
+          const response = await fetch('posts.json');
+          const allPosts = await response.json();
+          posts = allPosts.slice(0, 5); // Get the latest 5
+
+          if (posts.length === 0) return;
+
+          buildCarousel();
+          setupEventListeners();
+          startAutoRotate();
+        } catch (error) {
+          console.error("Failed to fetch or build carousel:", error);
+          carouselSlider.innerHTML = '<p style="color: black; padding: 20px;">Could not load news stories.</p>';
+        }
+      }
+
+      function buildCarousel() {
+        carouselSlider.innerHTML = '';
+        carouselNav.innerHTML = '';
+
+        posts.forEach((post, index) => {
+          // Create slide
+          const slide = document.createElement('div');
+          slide.className = 'carousel-slide';
+          slide.innerHTML = `
+            <img src="${post.image}" alt="">
+            <div class="carousel-content">
+              <h3>${post.title}</h3>
+              <p class="date">${post.date}</p>
+              <a href="${post.url}" class="read-more-btn">Read More</a>
+            </div>
+          `;
+          carouselSlider.appendChild(slide);
+
+          // Create nav dot
+          const dot = document.createElement('button');
+          dot.className = 'carousel-dot';
+          dot.dataset.index = index;
+          carouselNav.appendChild(dot);
+        });
+
+        updateCarousel();
+      }
+
+      function updateCarousel() {
+        carouselSlider.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+        // Update active dot
+        document.querySelectorAll('.carousel-dot').forEach((dot, index) => {
+          dot.classList.toggle('active', index === currentIndex);
+        });
+      }
+
+      function showNextSlide() {
+        currentIndex = (currentIndex + 1) % posts.length;
+        updateCarousel();
+      }
+
+      function showPrevSlide() {
+        currentIndex = (currentIndex - 1 + posts.length) % posts.length;
+        updateCarousel();
+      }
+
+      function startAutoRotate() {
+        stopAutoRotate(); // Prevent multiple intervals
+        slideInterval = setInterval(showNextSlide, 5000); // Rotate every 5 seconds
+      }
+
+      function stopAutoRotate() {
+        clearInterval(slideInterval);
+      }
+
+      function setupEventListeners() {
+        nextBtn.addEventListener('click', () => {
+          showNextSlide();
+          startAutoRotate(); // Restart timer on manual navigation
+        });
+
+        prevBtn.addEventListener('click', () => {
+          showPrevSlide();
+          startAutoRotate(); // Restart timer
+        });
+
+        carouselNav.addEventListener('click', (e) => {
+          if (e.target.matches('.carousel-dot')) {
+            currentIndex = parseInt(e.target.dataset.index);
+            updateCarousel();
+            startAutoRotate(); // Restart timer
+          }
+        });
+
+        // Pause on hover
+        const container = document.querySelector('.carousel-container');
+        container.addEventListener('mouseenter', stopAutoRotate);
+        container.addEventListener('mouseleave', startAutoRotate);
+      }
+
+      // Initialize
+      fetchAndBuildCarousel();
+    });
+  </script>
 </body>
 </html>
