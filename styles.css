@@ -313,3 +313,7 @@ figure.hero figcaption {
 .social-btn.reddit {
     background-color: #FF4500; /* Reddit Orange-Red */
 }
+
+.scorestream-widget-container {
+  height: 600px;
+}

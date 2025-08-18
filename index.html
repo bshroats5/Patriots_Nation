@@ -1,208 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Patriots Nation</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patriots Nation</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- NAVIGATION -->
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#posts">Posts</a></li>
-      <li><a href="#news">Events</a></li>
-      <li><a href="https://www.reddit.com/r/CumberlandsPatriots/" target="_blank">Community</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="images/PN_Logo.png" alt="Patriots Nation Logo" style="height:40px;"> 
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#posts">Posts</a></li>
+            <li><a href="#news">Events</a></li>
+            <li><a href="https://www.reddit.com/r/CumberlandsPatriots/" target="_blank">Community</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-  <!-- HERO -->
-  <h1>Welcome to Patriots Nation!</h1>
-  <figure class="hero">
-    <img src="images/UC Football.png"
-         alt="University of the Cumberlands Football Stadium">
-    <figcaption>Photo credit: University of the Cumberlands</figcaption>
-  </figure>
+    <!-- HERO -->
+    <h1>Welcome to Patriots Nation!</h1>
+    <figure class="hero">
+        <img src="images/UC Football.png" alt="University of the Cumberlands Football Stadium">
+        <figcaption>Photo credit: University of the Cumberlands</figcaption>
+    </figure>
+    <p>
+        Welcome to the only site for the University of the Cumberlands Patriots and campus. 
+        This site is created by fans for the fans.
+    </p>
 
-  <p>
-    Welcome to the only site for the University of the Cumberlands Patriots and campus.
-    This site is created by fans for the fans.
-  </p>
-
-  <!-- LATEST NEWS -->
-  <!-- Latest News Section -->
-<section id="latest-news">
-  <div class="container">
-    <h2 class="section-title">Latest Patriots News</h2>
-    
-    <div class="carousel-container">
-      <div class="carousel-slider">
-        <!-- News articles will be injected here by JavaScript -->
-      </div>
-      
-      <!-- Navigation Buttons -->
-      <button class="carousel-btn prev" aria-label="Previous Story">&lt;</button>
-      <button class="carousel-btn next" aria-label="Next Story">&gt;</button>
-      
-      <!-- Navigation Dots -->
-      <div class="carousel-nav">
-        <!-- Dots will be injected here by JavaScript -->
-      </div>
-    </div>
-  </div>
-</section>
-
-  <!-- GAME CENTER -->
-  <section class="game-center" id="scores">
-    <div class="scorestream-widget-container"
-         data-ss_widget_type="vertScoreboard"
-         style="height:600px;"
-         data-user-widget-id="65793"></div>
-    <script async type="text/javascript" src="https://scorestream.com/apiJsCdn/widgets/embed.js"></script>
-  </section> <!-- ✅ missing closing tag added here -->
-
-  <!-- SOCIAL SECTION -->
-<!-- Inside the .social-section -->
-<div class="social-buttons">
-  <a href="https://twitter.com/UCPatsNation" class="social-btn twitter" target="_blank">
-    Follow @UCPatsNation
-  </a>
-  <a href="https://twitter.com/intent/tweet?text=Go%20Patriots!&hashtags=UCPatsNation" class="social-btn" target="_blank">
-    Tweet #UCPatsNation
-  </a>
-  
-  <!-- ✅ ADD THIS NEW BUTTON -->
-  <a href="https://www.reddit.com/r/UCPatriots/" class="social-btn reddit" target="_blank">
-    Join us on Reddit
-  </a>
-</div>
-
-  <!-- FOOTER -->
-  <footer>
-<!-- In your <footer> section -->
-<footer>
-  <p>&copy; 2025 Patriots Nation | <a href="https://www.reddit.com/r/UCPatriots/" target="_blank">Join the Community on Reddit</a></p>
-</footer>  </footer>
-
-  <!-- Load Twitter script -->
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-  <!-- CAROUSEL SCRIPT -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const carouselSlider = document.querySelector('.carousel-slider');
-      const carouselNav = document.querySelector('.carousel-nav');
-      const prevBtn = document.querySelector('.carousel-btn.prev');
-      const nextBtn = document.querySelector('.carousel-btn.next');
-
-      let posts = [];
-      let currentIndex = 0;
-      let slideInterval;
-
-      // Fetch data and build the carousel
-      async function fetchAndBuildCarousel() {
-        try {
-          const response = await fetch('posts.json');
-          const allPosts = await response.json();
-          posts = allPosts.slice(0, 5); // Get the latest 5
-
-          if (posts.length === 0) return;
-
-          buildCarousel();
-          setupEventListeners();
-          startAutoRotate();
-        } catch (error) {
-          console.error("Failed to fetch or build carousel:", error);
-          carouselSlider.innerHTML = '<p style="color: black; padding: 20px;">Could not load news stories.</p>';
-        }
-      }
-
-      function buildCarousel() {
-        carouselSlider.innerHTML = '';
-        carouselNav.innerHTML = '';
-
-        posts.forEach((post, index) => {
-          // Create slide
-          const slide = document.createElement('div');
-          slide.className = 'carousel-slide';
-          slide.innerHTML = `
-            <img src="${post.image}" alt="">
-            <div class="carousel-content">
-              <h3>${post.title}</h3>
-              <p class="date">${post.date}</p>
-              <a href="${post.url}" class="read-more-btn">Read More</a>
+    <!-- LATEST NEWS -->
+    <section id="latest-news">
+        <div class="container">
+            <h2 class="section-title">Latest Patriots News</h2>
+            
+            <div class="carousel-container">
+                <div class="carousel-slider">
+                    <!-- News articles will be injected here by JavaScript -->
+                </div>
+                
+                <!-- Navigation Buttons -->
+                <button class="carousel-btn prev" aria-label="Previous Story">&lt;</button>
+                <button class="carousel-btn next" aria-label="Next Story">&gt;</button>
+                
+                <!-- Navigation Dots -->
+                <div class="carousel-nav">
+                    <!-- Dots will be injected here by JavaScript -->
+                </div>
             </div>
-          `;
-          carouselSlider.appendChild(slide);
+        </div>
+    </section>
 
-          // Create nav dot
-          const dot = document.createElement('button');
-          dot.className = 'carousel-dot';
-          dot.dataset.index = index;
-          carouselNav.appendChild(dot);
-        });
+    <!-- GAME CENTER -->
+    <section class="game-center" id="scores">
+        <div class="scorestream-widget-container" 
+             data-ss_widget_type="vertScoreboard" 
+             data-user-widget-id="65793"></div>
+        <script async type="text/javascript" src="https://scorestream.com/apiJsCdn/widgets/embed.js"></script>
+    </section>
 
-        updateCarousel();
-      }
+    <!-- SOCIAL SECTION -->
+    <section class="social-section">
+        <div class="social-buttons">
+            <a href="https://twitter.com/UCPatsNation" class="social-btn twitter" target="_blank" rel="noopener">
+                Follow @UCPatsNation
+            </a>
+            <a href="https://twitter.com/intent/tweet?text=Go%20Patriots!&hashtags=UCPatsNation" class="social-btn" target="_blank" rel="noopener">
+                Tweet #UCPatsNation
+            </a>
+            <a href="https://www.reddit.com/r/UCPatriots/" class="social-btn reddit" target="_blank" rel="noopener">
+                Join us on Reddit
+            </a>
+        </div>
+    </section>
 
-      function updateCarousel() {
-        carouselSlider.style.transform = `translateX(-${currentIndex * 100}%)`;
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Patriots Nation | <a href="https://www.reddit.com/r/UCPatriots/" target="_blank" rel="noopener">Join the Community on Reddit</a></p>
+    </footer>
 
-        // Update active dot
-        document.querySelectorAll('.carousel-dot').forEach((dot, index) => {
-          dot.classList.toggle('active', index === currentIndex);
-        });
-      }
-
-      function showNextSlide() {
-        currentIndex = (currentIndex + 1) % posts.length;
-        updateCarousel();
-      }
-
-      function showPrevSlide() {
-        currentIndex = (currentIndex - 1 + posts.length) % posts.length;
-        updateCarousel();
-      }
-
-      function startAutoRotate() {
-        stopAutoRotate(); // Prevent multiple intervals
-        slideInterval = setInterval(showNextSlide, 5000); // Rotate every 5 seconds
-      }
-
-      function stopAutoRotate() {
-        clearInterval(slideInterval);
-      }
-
-      function setupEventListeners() {
-        nextBtn.addEventListener('click', () => {
-          showNextSlide();
-          startAutoRotate(); // Restart timer on manual navigation
-        });
-
-        prevBtn.addEventListener('click', () => {
-          showPrevSlide();
-          startAutoRotate(); // Restart timer
-        });
-
-        carouselNav.addEventListener('click', (e) => {
-          if (e.target.matches('.carousel-dot')) {
-            currentIndex = parseInt(e.target.dataset.index);
-            updateCarousel();
-            startAutoRotate(); // Restart timer
-          }
-        });
-
-        // Pause on hover
-        const container = document.querySelector('.carousel-container');
-        container.addEventListener('mouseenter', stopAutoRotate);
-        container.addEventListener('mouseleave', startAutoRotate);
-      }
-
-      // Initialize
-      fetchAndBuildCarousel();
-    });
-  </script>
+    <!-- JavaScript should be loaded at the end of body -->
+    <script src="script.js"></script>
 </body>
 </html>
