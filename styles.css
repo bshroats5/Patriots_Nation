@@ -66,7 +66,7 @@ nav {
 }
 
 .logo img {
-    height: 60px;  /* Adjust this value for logo size */
+    height: 80px;  /* Adjust this value for logo size */
     width: auto;
     vertical-align: middle;
     transition: transform 0.3s ease;
@@ -112,8 +112,8 @@ h1 {
 
 /* Hero Image & Caption */
 figure.hero {
-    width: 100%;
-    max-height: 550px;
+    width: 90%;
+    max-height: 675px;
     margin: 0 auto var(--spacing-xlarge);
     overflow: hidden;
     position: relative;
@@ -340,7 +340,41 @@ a:hover {
 }
 
 /* === ACCESSIBILITY === */
+/* === ACCESSIBILITY === */
 /* Focus styles for keyboard navigation */
 a:focus,
 button:focus {
-    outline: 2px soli
+    outline: 2px solid var(--patriot-red);
+    outline-offset: 2px;
+}
+
+/* Skip to content link for screen readers */
+.skip-to-content {
+    position: absolute;
+    left: -9999px;
+    z-index: 999;
+    padding: 1em;
+    background-color: var(--navy-blue);
+    color: var(--white);
+    text-decoration: none;
+}
+
+.skip-to-content:focus {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}
+
+/* === PRINT STYLES === */
+@media print {
+    nav,
+    .social-section,
+    .scorestream-widget-container {
+        display: none;
+    }
+    
+    body {
+        color: black;
+        background: white;
+    }
+}
