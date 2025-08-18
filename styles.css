@@ -95,16 +95,36 @@ nav ul li a:hover {
 /* Add some spacing around the logo */
 /* LOGO in navbar */
 nav .logo img {
-    height: 100px;         /* <-- THIS IS THE LINE TO CHANGE */
-    width: auto;          /* prevent stretching */
-    display: block;
+    height: 80px;  /* Larger size */
+    width: auto;
+}
+
+.logo img {
+    height: 80px;  /* Adjust this to your desired size */
+    width: auto;
+    vertical-align: middle; /* Helps with alignment */
+}
+
+/* Larger screens get bigger logo */
+@media (min-width: 768px) {
+    .logo img {
+        height: 70px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .logo img {
+        height: 90px;
+    }
 }
 
 @media (max-width: 768px) {
-  nav .logo img {
-    height: 65px;
-  }
+    .logo img {
+        height: 50px; /* Smaller on mobile */
+    }
 }
+
+
 
 /* HERO HEADLINE  */
 h1 {
