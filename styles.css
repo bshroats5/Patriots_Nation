@@ -358,6 +358,18 @@ figure.hero figcaption {
     font-size: 0.8rem;
 }
 
+.post-detail figcaption {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.5);
+    color: var(--white);
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
 /* Contact Page */
 
 .contact-hero {
