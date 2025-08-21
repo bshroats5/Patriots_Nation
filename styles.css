@@ -345,6 +345,52 @@ footer {
     color: var(--navy-blue);
 }
 
+}
+figure.hero figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.5);
+    color: var(--white);
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+/* Contact Page */
+
+.contact-hero {
+  position: relative;
+  background: url('images/stadium-banner.jpg') center/cover no-repeat;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: var(--white);
+}
+.contact-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 45, 98, 0.7); /* overlay */
+}
+.contact-hero h1,
+.contact-hero p {
+  position: relative;
+  z-index: 2;
+}
+.contact-hero h1 {
+  font-size: 2.8rem;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+.contact-hero p {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+}
+
 /* Responsive Blog */
 @media (max-width: 768px) {
     .blog-post {
