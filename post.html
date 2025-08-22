@@ -1,91 +1,89 @@
+<!-- post.html  (Blog index page) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM02M55KR5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM02M55KR5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ZM02M55KR5');
+    </script>
 
-  gtag('config', 'G-ZM02M55KR5');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patriots Nation</title>
+    <title>Patriots Nation – Blog</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <!-- NAVIGATION -->
     <nav>
-    <a href="index.html" class="logo">
-        <img src="images/PN_Logo.png" alt="Patriots Nation Logo">
-    </a>
+        <a href="index.html" class="logo">
+            <img src="images/PN_Logo.png" alt="Patriots Nation Logo">
+        </a>
 
-    <!-- ▼▼▼ ADD THIS BUTTON ▼▼▼ -->
-    <button class="mobile-menu-toggle" aria-label="Open navigation menu">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
-    <!-- ▲▲▲ END OF BUTTON ▲▲▲ -->
+        <!-- Mobile hamburger -->
+        <button class="mobile-menu-toggle" aria-label="Open navigation menu">
+            <span></span><span></span><span></span>
+        </button>
 
-    <!-- Your existing navigation list -->
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="post.html">Posts</a></li>
-        <li><a href="events.html">Events</a></li>
-    <li><a href="https://www.reddit.com/r/CumberlandsPatriots/" target="_blank" rel="noopener">Community</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="post.html" class="active">Posts</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="https://www.reddit.com/r/CumberlandsPatriots/" target="_blank" rel="noopener">Community</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-<!-- BLOG HEADER -->
-<header class="blog-hero">
-    <div class="overlay"></div>
-    <div class="blog-hero-content">
-        <h1>Patriots Nation Blog</h1>
-        <p>Latest news, updates, and fan stories</p>
-    </div>
-</header>
+    <!-- BLOG HEADER -->
+    <header class="blog-hero">
+        <div class="overlay"></div>
+        <div class="blog-hero-content">
+            <h1>Patriots Nation Blog</h1>
+            <p>Latest news, updates, and fan stories</p>
+        </div>
+    </header>
 
     <!-- BLOG POSTS LIST -->
     <main class="blog-list container">
-        <!-- Blog Post Preview -->
+
+        <!-- Post 1 -->
         <article class="blog-post">
-            <img src="images/PN_Banner.jpg" alt="Post Thumbnail">
+            <img src="images/PN_Banner.jpg" alt="Patriots Nation banner">
             <div class="blog-content">
                 <h2><a href="post1.html">Welcome to Patriots Nation</a></h2>
-                <p class="post-meta">Published on August 20, 2025 by Admin</p>
-                <p>Welcome to the Patriots Nation blog, your go-to source for all things related 
-                  to the University of the Cumberlands Patriots! This is a fan site made by Pats fans
-                for Pats fans.</p>
+                <p class="post-meta">Published on August&nbsp;20,&nbsp;2025 by Admin</p>
+                <p>Welcome to the Patriots Nation blog, your go-to source for all things related to the University of the Cumberlands Patriots! This is a fan site made by Pats fans for Pats fans.</p>
                 <a href="post1.html" class="read-more">Read More</a>
             </div>
         </article>
 
-        <!-- Another Post -->
-         <article class="blog-post">
-            <img src="images/PatriotsSoccer.jpg" alt="Post Thumbnail">
+        <!-- Post 2 -->
+        <article class="blog-post">
+            <img src="images/PatriotsSoccer.jpg" alt="Patriots soccer huddle">
             <div class="blog-content">
                 <h2><a href="post2.html">Preseason Rankings: Where Do the Patriots Stand?</a></h2>
-                <p class="post-meta">Published on August 21, 2025 by Admin</p>
+                <p class="post-meta">Published on August&nbsp;21,&nbsp;2025 by Admin</p>
                 <p>As the new season approaches, we take a look at the preseason rankings and where the Patriots stand.</p>
                 <a href="soccer_preseason.html" class="read-more">Read More</a>
             </div>
         </article>
-    </main>
 
-    <!-- Another Post -->
-    <article class="blog-post">
-        <img src="images/PatriotsSoccer.jpg" alt="Post Thumbnail">
-        <div class="blog-content">
-            <h2><a href="post3.html">Patriots Soccer starts the season strong and Cross Country receives their Preseason Rankings.</a></h2>
-            <p class="post-meta">Published on August 21, 2025 by Admin</p>
-            <p> The #8 Women's Soccer team opened their 2025 campaign with a strong performance against Missouri Baptist University winning 5-0.  </p>
-            <a href="post3.html" class="read-more">Read More</a>
-        </div>
-    </article>
+        <!-- Post 3 (was previously outside <main>) -->
+        <article class="blog-post">
+            <img src="images/Women's_Soccer.png" alt="Women's soccer team celebrating">
+            <div class="blog-content">
+                <h2><a href="post3.html">Patriots Soccer starts the season strong and Cross Country receives their Preseason Rankings.</a></h2>
+                <p class="post-meta">Published on August&nbsp;21,&nbsp;2025 by Admin</p>
+                <p>The #8 Women's Soccer team opened their 2025 campaign with a strong performance against Missouri Baptist University winning 5-0.</p>
+                <a href="post3.html" class="read-more">Read More</a>
+            </div>
+        </article>
+
+    </main><!-- /.blog-list -->
 
     <!-- FOOTER -->
     <footer>
