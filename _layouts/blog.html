@@ -2,39 +2,30 @@
 layout: default
 ---
 
-<header class="blog-hero">
-  <div class="overlay"></div>
-  <div class="blog-hero-content">
-    <h1>{{ page.title }}</h1>
-    <p>Latest news, updates, and fan stories</p>
-  </div>
-</header>
+<div class="container blog-index">
+  <header class="page-header">
+    <h1>Patriots Nation Blog</h1>
+    <p class="subtitle">Latest news, updates, and fan stories</p>
+  </header>
 
-<main class="blog-list container">
-  {% for post in paginator.posts %}
-    <article class="blog-post">
-      {% if post.image %}
-      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
-      {% endif %}
-      <div class="blog-content">
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p class="post-meta">
-          Published on {{ post.date | date: "%B %-d, %Y" }}
-          {% if post.author %} by {{ post.author }}{% endif %}
-        </p>
-        <p>{{ post.excerpt }}</p>
-        <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
-      </div>
-    </article>
-  {% endfor %}
-</main>
-
-<!-- Pagination -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">← Newer Posts</a>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">Older Posts →</a>
+  {% if site.posts.size > 0 %}
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li class="post-item">
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          <p class="post-meta">
+            {{ post.date | date: "%B %-d, %Y" }}  
+            {% if post.author %} • by {{ post.author }}{% endif %}
+          </p>
+          {% if post.image %}
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-thumb">
+          {% endif %}
+          <p>{{ post.excerpt | strip_html | truncate: 200 }}</p>
+          <a href="{{ post.url | relative_url }}" class="read-more">Read More →</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No posts yet — check back soon!</p>
   {% endif %}
 </div>
