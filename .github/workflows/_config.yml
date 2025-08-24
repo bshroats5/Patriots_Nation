@@ -1,5 +1,5 @@
 title: "Patriots Nation"
 description: "Latest news, updates, and fan stories"
-url: "https://<your-username>.github.io"
-baseurl: "/Patriots-Nation"   # 👈 Must match repo name
+url: "https://bshroats5.github.io"
+baseurl: "/Patriots_Nation"   # 👈 Must match repo name
 paginate: 5
