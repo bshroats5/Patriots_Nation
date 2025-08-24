@@ -8,24 +8,26 @@ layout: default
     <p class="subtitle">Latest news, updates, and fan stories</p>
   </header>
 
-  {% if site.posts.size > 0 %}
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <li class="post-item">
-          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-          <p class="post-meta">
-            {{ post.date | date: "%B %-d, %Y" }}  
-            {% if post.author %} • by {{ post.author }}{% endif %}
-          </p>
-          {% if post.image %}
-            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-thumb">
-          {% endif %}
-          <p>{{ post.excerpt | strip_html | truncate: 200 }}</p>
-          <a href="{{ post.url | relative_url }}" class="read-more">Read More →</a>
-        </li>
-      {% endfor %}
-    </ul>
-  {% else %}
-    <p>No posts yet — check back soon!</p>
-  {% endif %}
-</div>
+{% if paginator.posts %}
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.date | date: "%B %-d, %Y" }} - {{ post.author }}</p>
+        <p>{{ post.excerpt }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Newer Posts</a>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Older Posts &raquo;</a>
+    {% endif %}
+  </div>
+{% else %}
+  <p>No posts found.</p>
+{% endif %}
