@@ -160,6 +160,13 @@ nav ul li a.active { /* UPDATED: Combined hover and active state */
     font-size: 0.8rem;
 }
 
+.content.container .intro {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
 /* === GENERIC COMPONENTS & SECTIONS === */
 .intro-text {
     max-width: 800px;

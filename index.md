@@ -3,6 +3,11 @@ layout: home
 title: "Patriots Nation"
 ---
 
+<p class="intro">
+  Welcome to the only site for the University of the Cumberlands Patriots.  
+  This site is created by fans, for the fans.
+</p>
+
 ## Live Scores & Schedule
 
 <div class="scorestream-widget-container"
