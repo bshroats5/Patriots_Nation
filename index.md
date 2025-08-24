@@ -3,8 +3,6 @@ layout: home
 title: "Patriots Nation"
 ---
 
-# Welcome to Patriots Nation!
-
 Welcome to the only site for the University of the Cumberlands Patriots.  
 This site is created by fans, for the fans.
 
@@ -16,5 +14,5 @@ This site is created by fans, for the fans.
      data-user-widget-id="65793">
 </div>
 
-<script async="async" type="text/javascript"
+<script async type="text/javascript"
         src="https://scorestream.com/apiJsCdn/widgets/embed.js"></script>
