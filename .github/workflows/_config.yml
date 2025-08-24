@@ -1,0 +1,5 @@
+title: "Patriots Nation"
+description: "Latest news, updates, and fan stories"
+url: "https://<your-username>.github.io"
+baseurl: "/Patriots-Nation"   # 👈 Must match repo name
+paginate: 5
