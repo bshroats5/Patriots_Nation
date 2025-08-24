@@ -13,9 +13,11 @@ This site is created by fans, for the fans.
 
 ## Live Scores & Schedule
 
-<iframe src="https://scorestream.com/apiJsCdn/widgets/embed.js"
-        width="100%"
-        height="600"
-        frameborder="0"
-        scrolling="no">
-</iframe>
+<div class="scorestream-widget-container"
+     data-ss_widget_type="vertScoreboard"
+     style="height:600px;"
+     data-user-widget-id="65793">
+</div>
+
+<script async="async" type="text/javascript"
+        src="https://scorestream.com/apiJsCdn/widgets/embed.js"></script>
