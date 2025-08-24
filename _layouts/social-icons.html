@@ -1,0 +1,11 @@
+<ul class="social-list">
+  {% for s in site.data.social %}
+    <li>
+      <a href="{{ s.url }}" target="_blank" rel="noopener"
+         aria-label="{{ s.name | capitalize }}">
+        <i class="{{ s.icon }}" aria-hidden="true"></i>
+        {{ s.name == 'x' ? '@UCPatsNation' : '' }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

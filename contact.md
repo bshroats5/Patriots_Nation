@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 
 Email : CumberlandsPatriotsNation@gmail.com  
-Twitter: @UCPatsNation
+Twitter: [@UCPatsNation](https://x.com/UCPatsNation)
 
 <header class="blog-hero">
   <div class="overlay"></div>
@@ -17,6 +17,6 @@ Twitter: @UCPatsNation
 
 <section class="contact-info">
   <h2>Get in Touch</h2>
-  <p>📧 Email us at <a href="mailto:cumberlandspatriotsnation@gmail.com">cumberlandspatriotsnation@gmail.com</a></p>
-  <p>💬 Reach out on <a href="https://www.reddit.com/r/CumberlandsPatriots/" target="_blank">Reddit</a> or <a href="https://twitter.com/intent/tweet?button_hashtag=UCPatsNation" target="_blank">Twitter</a></p>
+
+  {% include social-icons.html %}
 </section>
