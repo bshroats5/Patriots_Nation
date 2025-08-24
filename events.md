@@ -12,7 +12,10 @@ permalink: /events/
   </div>
 </header>
 
-<section class="events-list">
-  <h2>Upcoming Events</h2>
-  <p>[You can add events content here]</p>
-</section>
+<main class="events-page">
+  <div class="scorestream-widget-container"
+       data-ss_widget_type="vertScoreboard"
+       data-user-widget-id="65793">
+  </div>
+  <script async type="text/javascript" src="https://scorestream.com/apiJsCdn/widgets/embed.js"></script>
+</main>

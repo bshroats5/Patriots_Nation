@@ -1,8 +1,14 @@
 ---
-layout: blog
-title: "Patriots Nation Blog"
-permalink: /blog/
+layout: default
 ---
+
+<header class="blog-hero">
+  <div class="overlay"></div>
+  <div class="blog-hero-content">
+    <h1>{{ page.title }}</h1>
+    <p>Latest news, updates, and fan stories</p>
+  </div>
+</header>
 
 <main class="blog-list container">
   {% for post in paginator.posts %}
@@ -23,7 +29,7 @@ permalink: /blog/
   {% endfor %}
 </main>
 
-<!-- Pagination Links -->
+<!-- Pagination -->
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}">← Newer Posts</a>
