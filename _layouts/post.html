@@ -1,32 +1,17 @@
 ---
 layout: default
+title: "Patriots Nation Blog"
 ---
 
-<!-- POST HERO -->
-<header class="blog-hero">
-  <div class="overlay"></div>
-  <div class="blog-hero-content">
-    <h1>{{ page.title }}</h1>
-    <p class="post-meta">
-      Published on {{ page.date | date: "%B %-d, %Y" }}
-      {% if page.author %} by {{ page.author }}{% endif %}
-    </p>
-  </div>
-</header>
+<h1>Patriots Nation Blog</h1>
+<p>Latest news, updates, and fan stories</p>
 
-<!-- POST BODY -->
-<main class="post-detail container">
-
-  {% if page.image %}
-  <figure style="position:relative">
-    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="post-hero">
-    {% if page.image_credit %}
-      <figcaption>{{ page.image_credit }}</figcaption>
-    {% endif %}
-  </figure>
-  {% endif %}
-
-  {{ content }}
-
-  <a href="{{ '/blog/' | relative_url }}" class="back-to-blog">← Back to Blog</a>
-</main>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
