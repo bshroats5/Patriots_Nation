@@ -1,94 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM02M55KR5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+layout: home
+title: "Patriots Nation"
+---
 
-  gtag('config', 'G-ZM02M55KR5');
-</script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patriots Nation</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- NAVIGATION -->
-    <nav>
-    <a href="index.html" class="logo">
-        <img src="images/PN_Logo.png" alt="Patriots Nation Logo">
-    </a>
+<figure class="hero">
+  <img src="{{ '/images/UC Football.png' | relative_url }}" alt="University of the Cumberlands Football Stadium">
+  <figcaption>Photo credit: University of the Cumberlands</figcaption>
+  <h1 class="hero-title">Welcome to Patriots Nation!</h1>
+</figure>
 
-    <!-- ▼▼▼ ADD THIS BUTTON ▼▼▼ -->
-    <button class="mobile-menu-toggle" aria-label="Open navigation menu">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
-    <!-- ▲▲▲ END OF BUTTON ▲▲▲ -->
+<p class="intro-text">
+  Welcome to the only site for the University of the Cumberlands Patriots. 
+  This site is created by fans for the fans.
+</p>
 
-    <!-- Your existing navigation list -->
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="post.html">Posts</a></li>
-        <li><a href="events.html">Events</a></li>
-    <li><a href="https://www.reddit.com/r/CumberlandsPatriots/" target="_blank" rel="noopener">Community</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+<!-- Game Center -->
+<section class="game-center" id="scores">
+  <h2>Live Scores & Schedule</h2>
+  <div class="scorestream-widget-container" data-ss_widget_type="vertScoreboard" data-user-widget-id="65793"></div>
+  <div class="scorestream-widget-container" style="height:600px;" data-ss_widget_type="vertScoreboard" data-user-widget-id="65793"></div>
+  <script async src="https://scorestream.com/apiJsCdn/widgets/embed.js"></script>
+</section>
 
-    <!-- HERO -->
-    <figure class="hero">
-        <img src="images/UC Football.png" alt="University of the Cumberlands Football Stadium">
-        <figcaption>Photo credit: University of the Cumberlands</figcaption>
-        <h1 class="hero-title">Welcome to Patriots Nation!</h1>
-    </figure>
-
-    <!-- INTRO -->
-    <p class="intro-text">
-        Welcome to the only site for the University of the Cumberlands Patriots. 
-        This site is created by fans for the fans.
-    </p>
-
-    <!-- GAME CENTER -->
-    <section class="game-center" id="scores">
-        <h2>Live Scores & Schedule</h2>
-       <div class="scorestream-widget-container" 
-           data-ss_widget_type="vertScoreboard" 
-           data-user-widget-id="65793"></div>
-       <div class="scorestream-widget-container" data-ss_widget_type="vertScoreboard" style="height:600px;" data-user-widget-id="65793"></div><script async="async" type="text/javascript" src="https://scorestream.com/apiJsCdn/widgets/embed.js"></script>    </section>
-
-    <!-- SOCIAL SECTION -->
-    <section class="social-section">
-        <h2>Connect With Patriots Nation</h2>
-        <div class="social-buttons-uniform">
-            <!-- Twitter Button -->
-            <a href="https://twitter.com/intent/tweet?button_hashtag=UCPatsNation&ref_src=twsrc%5Etfw" 
-               class="social-btn-uniform twitter" 
-               target="_blank" 
-               rel="noopener">
-               Post #UCPatsNation
-            </a>
-            <!-- Reddit Button -->
-            <a href="https://www.reddit.com/r/UCPatriots/" 
-               class="social-btn-uniform reddit" 
-               target="_blank" 
-               rel="noopener">
-               Join us on Reddit
-            </a>
-        </div>
-    </section>
-    
-    <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2025 Patriots Nation</p>
-    </footer>
-
-    <!-- JavaScript -->
-    <script src="scripts.js"></script>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</body>
-</html>
+<!-- Social -->
+<section class="social-section">
+  <h2>Connect With Patriots Nation</h2>
+  <div class="social-buttons-uniform">
+    <a href="https://twitter.com/intent/tweet?button_hashtag=UCPatsNation" class="social-btn-uniform twitter" target="_blank" rel="noopener">Post #UCPatsNation</a>
+    <a href="https://www.reddit.com/r/UCPatriots/" class="social-btn-uniform reddit" target="_blank" rel="noopener">Join us on Reddit</a>
+  </div>
+</section>

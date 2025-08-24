@@ -1,3 +1,4 @@
+<!-- post.html  (Blog index page) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +13,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patriots Nation</title>
+    <title>Patriots Nation – Blog</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -22,15 +23,19 @@
         <a href="index.html" class="logo">
             <img src="images/PN_Logo.png" alt="Patriots Nation Logo">
         </a>
+
+        <!-- Mobile hamburger -->
         <button class="mobile-menu-toggle" aria-label="Open navigation menu">
             <span></span><span></span><span></span>
         </button>
+
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="post.html">Posts</a></li>
+            <li><a href="post.html" class="active">Posts</a></li>
             <li><a href="events.html">Events</a></li>
             <li><a href="https://www.reddit.com/r/CumberlandsPatriots/" target="_blank" rel="noopener">Community</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li></li><a href="{{ '/contact.html' | relative_url }}">Contact</a></li>
+            <li><img src="{{ '/images/PN_Logo.png' | relative_url }}" alt="Logo"></li>
         </ul>
     </nav>
 
