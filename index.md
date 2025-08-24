@@ -3,9 +3,6 @@ layout: home
 title: "Patriots Nation"
 ---
 
-![University of the Cumberlands Football Stadium](/images/stadium.jpg)  
-*Photo credit: University of the Cumberlands*
-
 # Welcome to Patriots Nation!
 
 Welcome to the only site for the University of the Cumberlands Patriots.  
