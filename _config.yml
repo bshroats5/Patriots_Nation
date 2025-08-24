@@ -1,7 +1,8 @@
 title: "Patriots Nation"
 description: "Latest news, updates, and fan stories"
-url: "https://patriotsnation.page" 
-baseurl: "" 
+
+url: "https://patriotsnation.page"
+baseurl: ""                          
 
 plugins:
   - jekyll-paginate
