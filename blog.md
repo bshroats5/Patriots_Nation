@@ -25,7 +25,7 @@ pagination:
   {% endfor %}
 </main>
 
-<!-- Pagination -->
+<!-- Pagination Links -->
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}">← Newer Posts</a>
