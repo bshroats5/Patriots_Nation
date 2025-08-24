@@ -108,33 +108,47 @@ nav ul li a.active { /* UPDATED: Combined hover and active state */
 }
 
 /* === HERO === */
-figure.hero {
-    width: 100%;
-    height: 600px;
-    margin: 0;
-    position: relative;
-    overflow: hidden;
+.hero {
+  position: relative;
+  text-align: center;
+  margin-bottom: 2rem;
 }
-figure.hero img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: brightness(65%);
 }
-.hero-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: var(--font-heading);
-    /* UPDATED: Fluid font size that scales with the viewport */
-    font-size: clamp(1.8rem, 5vw + 1rem, 3.5rem);
-    color: var(--white);
-    text-shadow: 3px 3px 8px rgba(0,0,0,0.7);
-    text-transform: uppercase;
-    text-align: center;
-    width: 90%;
+
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
 }
-figure.hero figcaption {
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero-overlay .tagline {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.hero .credit {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-size: 0.75rem;
+  color: #eee;
+}
+
+.hero figcaption {
     position: absolute;
     bottom: 10px;
     left: 50%;
