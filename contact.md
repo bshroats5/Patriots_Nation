@@ -1,8 +1,11 @@
 ---
 layout: page
-title: "Contact Patriots Nation"
+title: "Contact"
 permalink: /contact/
 ---
+
+Email : CumberlandsPatriotsNation@gmail.com  
+Twitter: @UCPatsNation
 
 <header class="blog-hero">
   <div class="overlay"></div>

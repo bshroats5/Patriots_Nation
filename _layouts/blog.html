@@ -9,15 +9,12 @@ layout: default
   </header>
 
 {% if paginator.posts %}
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p>{{ post.date | date: "%B %-d, %Y" }} - {{ post.author }}</p>
-        <p>{{ post.excerpt }}</p>
-      </li>
-    {% endfor %}
-  </ul>
+  {% for post in paginator.posts %}
+    …display post…
+  {% endfor %}
+{% else %}
+  <p>No posts found.</p>
+{% endif %}
 
   <div class="pagination">
     {% if paginator.previous_page %}
