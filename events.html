@@ -1,0 +1,60 @@
+<!-- post.html  (Blog index page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM02M55KR5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ZM02M55KR5');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patriots Nation – Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="images/PN_Logo.png" alt="Patriots Nation Logo">
+        </a>
+
+        <!-- Mobile hamburger -->
+        <button class="mobile-menu-toggle" aria-label="Open navigation menu">
+            <span></span><span></span><span></span>
+        </button>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="post.html" class="active">Posts</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="https://www.reddit.com/r/CumberlandsPatriots/" target="_blank" rel="noopener">Community</a></li>
+            <li></li><a href="{{ '/contact.html' | relative_url }}">Contact</a></li>
+            <li><img src="{{ '/images/PN_Logo.png' | relative_url }}" alt="Logo"></li>
+        </ul>
+    </nav>
+
+  <!-- FULL SCOREBOARD -->
+<main class="events-page">
+  <div class="scorestream-widget-container"
+       data-ss_widget_type="vertScoreboard"
+       data-user-widget-id="65793">
+  </div>
+  <script async type="text/javascript" src="https://scorestream.com/apiJsCdn/widgets/embed.js"></script>
+</main>
+
+  <!-- FOOTER -->
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Patriots Nation</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
