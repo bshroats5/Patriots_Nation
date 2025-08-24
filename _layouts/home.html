@@ -2,4 +2,15 @@
 layout: default
 ---
 
-{{ content }}
+<div class="hero">
+  <div class="hero-overlay">
+    <img src="/images/stadium.jpg" alt="University of the Cumberlands Football Stadium">
+    <p class="credit">Photo credit: University of the Cumberlands</p>
+    <h1>{{ page.title }}</h1>
+    <p class="tagline">Made by fans, for fans — your home for UC Patriots news.</p>
+  </div>
+</div>
+
+<div class="content container">
+  {{ content }}
+</div>
