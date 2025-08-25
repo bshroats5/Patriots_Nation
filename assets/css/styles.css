@@ -482,6 +482,47 @@ width: auto;
   overflow: hidden;
 }
 
+/* Contact page social icons */
+.contact-section {
+  text-align: center;
+  padding: var(--spacing-xlarge);
+}
+
+.social-list-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 3rem;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-list li {
+  display: flex;
+  align-items: center;
+}
+
+.social-list a {
+  font-size: 1.2rem;
+  color: var(--navy-blue);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.2s ease;
+}
+
+.social-list a:hover {
+  color: var(--patriot-red);
+}
+
 /* === UTILITY & ACCESSIBILITY === */
 
 /* NEW: Safer, opt-in image loading animation */
@@ -682,7 +723,7 @@ footer {
 .social-list {
   list-style: none;
   padding: 0;
-  display: center;
+  display: flex;
   gap: 2rem;
   margin: 2rem 0;
 }
