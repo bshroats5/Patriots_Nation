@@ -682,7 +682,7 @@ footer {
 .social-list {
   list-style: none;
   padding: 0;
-  display: flex;
+  display: center;
   gap: 2rem;
   margin: 2rem 0;
 }
