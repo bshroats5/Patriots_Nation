@@ -14,9 +14,9 @@ permalink: /contact/
   
   <div class="social-list-container">
     <ul class="social-list">
-      <li><a href="mailto:your-email@example.com">📧 email</a></li>
-      <li><a href="https://twitter.com/yourhandle">𝕏 x</a></li>
-      <li><a href="https://reddit.com/u/yourhandle">🔗 reddit</a></li>
+      <li><a href="mailto:cumberlandspatriotsnation@gmail.com">📧 email</a></li>
+      <li><a href="https://x.com/UCPatsNation">𝕏 x</a></li>
+      <li><a href="https://www.reddit.com/r/CumberlandsPatriots/">🔗 reddit</a></li>
     </ul>
   </div>
   
