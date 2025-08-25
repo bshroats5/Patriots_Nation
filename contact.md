@@ -14,8 +14,6 @@ permalink: /contact/
 
 <section class="contact-info">
   <h2>Get in Touch</h2>
-  
   {% include social-icons.html %}
-  
-  <p>Feel free to reach out through any of the channels above. We're always excited to connect with fellow Patriots fans!</p>
+  <p>Feel free to reach out </p>
 </section>
