@@ -443,12 +443,6 @@ width: auto;
   font-size: 0.9rem;
 }
 
-.read-more {
-  color: var(--patriot-red);
-  font-weight: 600;
-  text-decoration: none;
-}
-
 .read-more:hover {
   color: var(--navy-blue);
 }
@@ -690,53 +684,13 @@ footer {
   padding: 0 1rem;
 }
 
-.post-card {
-  border-bottom: 1px solid #e5e5e5;
-  padding: 2rem 0;
-}
-
-.post-card h2 {
-  margin: 0 0 0.5rem;
-}
-
-.post-card h2 a {
-  color: #01427a;
-  text-decoration: none;
-}
-
-.post-card h2 a:hover {
-  text-decoration: underline;
-}
-
-.post-card time {
-  color: #666;
-  font-size: 0.9rem;
-}
-
 .read-more {
   color: #01427a;
   font-weight: 600;
   text-decoration: none;
 }
 
-/* Social icons */
-.social-list {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 2rem;
-  margin: 2rem 0;
-}
 
-.social-list a {
-  font-size: 2rem;
-  color: #01427a;
-  text-decoration: none;
-}
-
-.social-list a:hover {
-  color: #c2002f;
-}
 /* Pagination */
 .pagination{
   max-width:900px;
