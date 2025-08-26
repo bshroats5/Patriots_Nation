@@ -19,6 +19,11 @@ permalink: /contact/
       <li><a href="https://www.reddit.com/r/CumberlandsPatriots/">🔗 reddit</a></li>
     </ul>
   </div>
-  
-  <p>Feel free to reach out</p>
+
+  <noscript>
+    <p style="font-size: 0.9rem; color: #666; margin-top: 1rem;">
+      If you don't see our contact links above, please check your ad blocker settings.
+    </p>
+  </noscript>
+</div>
 </section>
