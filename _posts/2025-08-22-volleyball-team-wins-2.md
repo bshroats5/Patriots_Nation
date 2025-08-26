@@ -4,6 +4,8 @@ title: "Volleyball Team Wins 2"
 date: 2025-08-22
 author: Admin
 image: /images/UC_Volleyball.png
+image_credit: "Photo from University of the Cumberlands"
+
 ---
 
 The Cumberlands (UC) volleyball team began their season with a perfect 2-0 start at the Onset Tournament.  

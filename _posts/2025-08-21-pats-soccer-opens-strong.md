@@ -4,6 +4,8 @@ title: "Pats Soccer Opens Strong; XC Gets Pre-season Nod"
 date: 2025-08-21
 author: Admin
 image: /images/Women's_Soccer.png
+image_credit: "Photo from University of the Cumberlands"
+
 ---
 
 The #8 women's soccer team opened its 2025 campaign with a commanding 5-0 win over Missouri Baptist University.  

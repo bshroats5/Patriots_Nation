@@ -5,6 +5,7 @@ date: 2025-08-21
 author: Admin
 image: /images/PatriotsSoccer.jpg
 image_credit: "Photo credit: University of the Cumberlands"
+
 ---
 
 The men's and women's soccer teams at the University of the Cumberlands are gearing up for an exciting season kicking off on Thursday, August 21.
