@@ -6,10 +6,6 @@ author: Admin
 image: /images/Pats-Awards.png
 image_credit: "Photo from University of the Cumberlands"
 ---
-author: Admin
-image: /images/Pats-Awards.png
-figcaption: Photo from University of the Cumberlands
----
 
 <p> The air was electric with excitement as we gathered to celebrate a year of incredible dedication, breathtaking skill, and unwavering spirit in Patriot athletics. The annual 2025 Pats Awards provided the perfect stage to honor the outstanding student-athletes, coaches, and teams who made this season one for the history books. </p>
 <p> From clutch performances to season-long dominance, the evening recognized every facet of athletic excellence. We are thrilled to announce the official winners of the 2025 Pats Awards! </p>
