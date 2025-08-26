@@ -46,13 +46,3 @@ image_credit: "Photo from University of the Cumberlands"
 •	UC Lifetime Achievement Award: Dr. Larry Cockrum </p>
 ________________________________________
 <p> The evening was a powerful reminder of the hard work and passion that fuels our athletic programs. While there were some incredibly tough choices to be made, every winner was thoroughly deserved. A heartfelt congratulations to all our winners for their remarkable achievements. We also extend our congratulations to every nominee, whose excellence made this a truly competitive and memorable awards season. Here's to another year of Patriot pride. </p>
- 
-
-
-
-
-
-## Subheadings work too
-
-- Bullet points
-- Like this
