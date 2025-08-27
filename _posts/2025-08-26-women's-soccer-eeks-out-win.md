@@ -25,5 +25,3 @@ The Buffaloes had one last shot in the final seconds of the match as they headed
 
 The Pats swept the Mid-South Conference Weekly Awards. Araujo was named MSC Offensive Player of the Week for the first time this season. She scored 2 goals and 2 assists in the first week of the season. 
 Samantha Sokolove earned MSC Defensive Player of the Week. Samantha and the rest of the UC backline held Missouri Baptist to just two shots in 90 minutes. 
-
-![Score image of the match](images/uc-mill.jpg "Final Score")
