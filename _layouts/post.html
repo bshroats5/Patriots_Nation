@@ -32,3 +32,11 @@ layout: default
     <a class="back-to-blog" href="{{ '/blog/' | relative_url }}">← Back to Blog</a>
   </nav>
 </article>
+
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}&hashtags=PatriotsNation,UCPatriots" 
+     target="_blank" 
+     class="twitter-share-button">
+    <i class="fab fa-twitter"></i> Tweet This Post
+  </a>
+</div>

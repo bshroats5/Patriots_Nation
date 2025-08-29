@@ -725,3 +725,14 @@ footer {
   color:#C8102E;
   font-weight:600;
 }
+
+.twitter-share-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #1DA1F2;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.twitter-share-
