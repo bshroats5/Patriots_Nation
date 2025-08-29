@@ -726,13 +726,27 @@ footer {
   font-weight:600;
 }
 
+/* === Share Buttons === */
 .twitter-share-button {
-  display: inline-block;
+  display: inline-flex; /* Use flexbox for better icon alignment */
+  align-items: center;  /* Vertically center the icon and text */
+  gap: 8px;             /* Add space between the icon and text */
   padding: 10px 20px;
-  background: #1DA1F2;
+  background-color: #1DA1F2; /* Twitter's brand blue */
   color: white;
   text-decoration: none;
   border-radius: 20px;
   font-weight: bold;
+  font-family: var(--font-body); /* Using your CSS variables */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
 }
-.twitter-share-
+
+.twitter-share-button:hover {
+  background-color: #0c85d0; /* A slightly darker blue on hover */
+  transform: translateY(-2px); /* Lifts the button slightly */
+}
+
+/* Styles for the Font Awesome icon inside the button */
+.twitter-share-button .fab {
+  font-size: 1.2rem; /* Make the bird icon a little bigger */
+}
