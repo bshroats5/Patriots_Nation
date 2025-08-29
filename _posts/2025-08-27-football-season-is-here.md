@@ -20,5 +20,4 @@ image_credit: "Photo from University of the Cumberlands"
 </p>
 
 <h2> Where they stand </h2>
-For the first time since 2021 the UC Patriots will start the season mentioned in the NAIA Football Rankings. The Patriots received 2 votes putting them 35th in the nation. The last time the Patriots were ranked was October 2nd, 2023 when they were ranked 23.  
-</p>
+For the first time since 2021 the UC Patriots will start the season mentioned in the NAIA Football Rankings. The Patriots received 2 votes putting them 35th in the nation. The last time the Patriots were ranked was October 2nd, 2023 when they were ranked 23.
