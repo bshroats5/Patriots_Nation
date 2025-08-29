@@ -7,7 +7,7 @@ image: /images/Football-team.png
 image_credit: "Photo from University of the Cumberlands"
 ---
 
-# University of the Cumberlands Thumps Union 45-11, Keeps Brass Lantern in Williamsburg
+University of the Cumberlands Thumps Union 45-11, Keeps Brass Lantern in Williamsburg.
 
 Drew Gregg, in his first game as a Patriot, completed **18 of 26 passes for 334 yards and 4 touchdowns**. He also ran the ball 7 times for 8 yards and another score.
 
