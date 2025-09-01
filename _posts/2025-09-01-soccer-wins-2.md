@@ -3,7 +3,7 @@ layout: post
 title: "Patriots Pick Up 2 Wins On The Pitch"
 date: 2025-08-30
 author: Admin
-image: /images/pat-soc.png
+image: /images/pat-soc.jpg
 image_credit: "Photo from University of the Cumberlands"
 ---
 
