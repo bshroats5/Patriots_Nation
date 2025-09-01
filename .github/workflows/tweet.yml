@@ -23,8 +23,8 @@ jobs:
             DATE=$(echo $POST | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}')
             SLUG=$(echo $POST | sed 's/_posts\///' | sed 's/.md$//')
             URL="https://patriotsnation.page/blog/${DATE//-/\/}/${SLUG#*-*-*-}"
-            echo "::set-output name=title::$TITLE"
-            echo "::set-output name=url::$URL"
+            echo "title=$TITLE" >> $GITHUB_OUTPUT
+            echo "url=$URL" >> $GITHUB_OUTPUT
           fi
       
       - name: Tweet
