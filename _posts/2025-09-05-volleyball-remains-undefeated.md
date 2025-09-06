@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Patriots Pick Up 2 Wins On The Court"
+title: "No. 20 Cumberlands Sweeps Day One at IU Kokomo Quad, Bryant Shines in Signature Win"
 date: 2025-09-05
 author: Admin
 image: /images/pats-vb.jpg
 image_credit: "Photo from University of the Cumberlands"
 ---
 
-# No. 20 Cumberlands Sweeps Day One at IU Kokomo Quad, Bryant Shines in Signature Win
+
 
 The 20th-ranked University of the Cumberlands volleyball team continued its perfect start to the 2025 season with two impressive sweeps Friday at the IU Kokomo Quad Tournament. The Patriots opened the day with a thrilling **3-0 victory over No. 18 IU Kokomo** before dispatching IU East by the same score in the afternoon to remain **undefeated at 9-0** on the year.
 
