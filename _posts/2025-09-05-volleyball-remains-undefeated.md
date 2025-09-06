@@ -3,7 +3,7 @@ layout: post
 title: "Patriots Pick Up 2 Wins On The Court"
 date: 2025-09-05
 author: Admin
-image: /images/pat-vb.jpg
+image: /images/pats-vb.jpg
 image_credit: "Photo from University of the Cumberlands"
 ---
 
