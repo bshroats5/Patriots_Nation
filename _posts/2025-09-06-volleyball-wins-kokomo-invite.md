@@ -33,6 +33,8 @@ The Patriots exploded out of the gates, hitting a blistering **.453** as a team 
 - Jolly: 40 assists, 2 aces, 4 digs  
 - Slaughter: 14 digs  
 
+Patriots Nation Player of the Game goes to Savannah Jolly
+
 ---
 
 ## Afternoon Match: UC Cruises Past Siena Heights  
@@ -52,6 +54,8 @@ UC’s second contest of the day was more of the same, as the Patriots controlle
 - Shiery: 5 kills, 2 blocks  
 - Jolly: 36 assists, 9 digs, 3 kills  
 - Slaughter: 9 digs, 2 aces  
+
+Patriots Nation Player of the Game goes to Brynnley Bryant.
 
 ---
 
