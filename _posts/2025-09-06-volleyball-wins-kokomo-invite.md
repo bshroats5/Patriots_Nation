@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "No. 20 Cumberlands Sweeps Day One at IU Kokomo Quad, Bryant Shines in Signature Win"
+title: "No. 20 Cumberlands Goes Perfect in Kokomo"
 date: 2025-09-06
 author: Admin
 image: /images/2025-09-06-vb.jpg
