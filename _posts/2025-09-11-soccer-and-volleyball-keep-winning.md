@@ -51,6 +51,9 @@ For St. Thomas, the loss was a frustrating story of missed chances. Despite cont
 
 As the final whistle blew, it became clear: this was a match defined by efficiency, heart, and Wakana Ose’s killer instinct in front of net.  
 
+# Patriots Nation Player of the Game
+Wakana Ose for her 2 goals on the day.
+
 # Cumberlands Dominates Boyce in Straight Sets, Extends Perfect Start to 12-0  
 
 The University of the Cumberlands volleyball team showed why it remains undefeated, rolling past Boyce College in **straight sets (25-9, 25-10, 25-17)** to improve to a perfect **12-0** on the season.  
@@ -111,6 +114,9 @@ Cumberlands continues its historic start, moving to **12-0** with another domina
 For Boyce (0-7), the loss highlights areas for growth, particularly in handling strong serves and attacks from high-powered opponents. Still, Rau and Green offered bright spots, showing the program’s offensive potential.  
 
 With momentum squarely in their favor, the Patriots will look to keep their unbeaten streak alive as conference play looms.  
+
+# Patriots Nation Player of the Game
+Sara Zampedri for 9 kills and a .692 hitting percentage. 
 
 # What's Next for the Pats
 
