@@ -12,3 +12,7 @@ paginate_path: "/blog/page:num/"
 # Add this to make pagination work on blog.md
 plugins:
   - jekyll-paginate
+
+  # Google Analytics plugin
+  - jekyll-google-analytics
+google_analytics: "G-ZM02M55KR5"
