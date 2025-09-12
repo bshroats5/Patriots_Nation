@@ -53,8 +53,6 @@ As the final whistle blew, it became clear: this was a match defined by efficien
 
 # Cumberlands Dominates Boyce in Straight Sets, Extends Perfect Start to 12-0  
 
-**Williamsburg, Ky. — September 11, 2025**  
-
 The University of the Cumberlands volleyball team showed why it remains undefeated, rolling past Boyce College in **straight sets (25-9, 25-10, 25-17)** to improve to a perfect **12-0** on the season.  
 
 Boyce, still searching for its first win, struggled against Cumberlands’ size and efficiency at the net. Ultimately, the Patriots hit **.475 as a team** while holding Boyce to **-.097**, a clear illustration of how one-sided the match was.  
