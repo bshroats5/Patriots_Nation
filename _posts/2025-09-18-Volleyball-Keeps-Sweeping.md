@@ -11,6 +11,7 @@ image_credit: "Photo from University of the Cumberlands"
 
 The #14 ranked Cumberlands Patriots (15-0) extended their perfect season with a dominant 3-0 sweep over Midway (25-19, 25-16, 25-12). This victory marked their 10th consecutive sweep and maintained their undefeated record.
 
+
 **Key Match Statistics:**
 - Patriots hit .325 as a team with 34 kills
 - Limited Midway to just .068 hitting percentage
@@ -18,10 +19,12 @@ The #14 ranked Cumberlands Patriots (15-0) extended their perfect season with a 
 - Out-aced Midway 16-6
 - Recorded 6 team blocks
 
+
 **Set Breakdown:**
 - **Set 1:** Close early before Patriots pulled away behind Sara Zampedri's strong play (25-19)
 - **Set 2:** Cumberlands jumped out early with a 5-0 serving run led by Savanah Jolly (25-16)
 - **Set 3:** Complete Patriots domination, building a 10-4 lead and never looking back (25-12)
+
 
 ## Patriots Nation Player of the Game: Sara Zampedri
 
