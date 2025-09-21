@@ -7,7 +7,7 @@ image: /images/2025-09-20-msoc.jpg
 image_credit: "Photo from University of the Cumberlands"
 ---
 
-All praise goes to the Men;s soccer team as they have their best performance of the season beating #13 Cumberland University 5-0 on the road and down a man for over half the match. The #2 UC Women's Patriots was upset by Cumberland 2-1 earlier in the day. Also earlier in the day the UC Football team was beaten by #2 Keiser 42-12.
+All praise goes to the Men's soccer team as they have their best performance of the season beating #13 Cumberland University 5-0 on the road and down a man for over half the match. The #2 UC Women's Patriots was upset by Cumberland 2-1 earlier in the day. Also earlier in the day the UC Football team was beaten by #2 Keiser 42-12.
 
 # Cumberlands (KY) Stun Undefeated Cumberland (TN) With 5-0 Rout  
 
