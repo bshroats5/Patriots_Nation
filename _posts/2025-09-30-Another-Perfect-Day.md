@@ -21,6 +21,10 @@ They got a little chippy at the end, we picked up a few cards, but that's what h
 
 Good win. *We're on to Lindsey Wilson.*
 
+### Patriots Nation Player of the Game ###
+
+**Alba Ramirez**
+
 ### **Next, the Volleyball Game: PATRIOTS 3, GEORGETOWN 0**
 
 Are you kidding me?! If you thought the soccer game was a win, this was a straight-up **DEMOLITION**. A complete and total domination. Georgetown showed up, I guess. The scoreboard says they did.
@@ -36,6 +40,10 @@ Forty-seven kills for us, 23 for them. Four blocks for us, **ZERO** for them. We
 We have now won 12 straight by sweeps and 39 straight sets won by the Patriots!
 
 Another one in the win column. Business as usual. **LET'S GOOOO**
+
+### Patriots Nation Player of the Game ###
+
+**Sara Zampedri**
 
 # Check Us Out on Social Media
 
