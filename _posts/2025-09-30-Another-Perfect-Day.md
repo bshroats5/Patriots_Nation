@@ -5,6 +5,7 @@ date: 2025-09-30
 author: Admin
 image: /images/2025-09-30-vb.jpg
 image_credit: "Photo from University of the Cumberlands"
+---
 
 Alright, pop a squat, grab a Dr.Pepper Let's break down these HUGE wins for the Patriots.
 
@@ -35,3 +36,13 @@ Forty-seven kills for us, 23 for them. Four blocks for us, **ZERO** for them. We
 We have now won 12 straight by sweeps and 39 straight sets won by the Patriots!
 
 Another one in the win column. Business as usual. **LET'S GOOOO**
+
+# Check Us Out on Social Media
+
+Please Join The Community
+
+**X**: @UCPatsNation
+**Instagram**: @ucpatriotsnation
+**Threads**: @ucpatriotsnation
+**Reddit**: r/CumberlandsPatriots
+**Facebook**: Patriots Nation
