@@ -40,6 +40,15 @@ The Patriots' defense gave them one last chance, with **Major Newman** coming up
 
 ### Final Score: Cumberlands 34 Campbellsville 49
 
+## A Record-Breaking Day for Gregg
+Despite the final score, it was a historic day for quarterback Drew Gregg. In one of the greatest passing performances in program history, Gregg shattered single-game records for completions (33), attempts (62), and passing yards (425), while also throwing four touchdowns. The previous marks had stood for 25 years and were ironically set against the very same Campbellsville Tigers back in 2000. Gregg also proved to be a threat on the ground, adding 30 rushing yards to his remarkable stat line.
+
+## On Deck
+
+Next up for the Patriots is another tough road game at # 7 Lindsey Wilson.
+
+
+
 ## Please Join The Community
 
 **X**: @UCPatsNation
