@@ -34,3 +34,11 @@ Final Score: Cumberlands 3, Cumberland U. 0
 ## Patriots Nation Player of the Game
 
 **Sara Zampedri**
+
+## Please Join The Community
+
+**X**: @UCPatsNation
+**Instagram**: @ucpatriotsnation
+**Threads**: @ucpatriotsnation
+**Reddit**: r/CumberlandsPatriots
+**Facebook**: Patriots Nation
