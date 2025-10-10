@@ -7,7 +7,7 @@ image: /images/2025-10-10-vb.jpg
 image_credit: "Photo from University of the Cumberlands"
 ---
 
-The #10 Cumberlands Patriots volleyball team continues to rewrite the history books, putting on an offensive clinic Friday evening to sweep Bethel University 3-0 (25-11, 25-11, 25-16). The victory not only marks their 14th consecutive sweep but also ties the program's all-time record for consecutive wins, pushing their perfect season record to 19-0.
+The #10 Cumberlands Patriots volleyball team continues to rewrite the history books, putting on an offensive clinic Friday evening to sweep Bethel University 3-0 (25-11, 25-11, 25-16). The victory not only marks their 14th consecutive sweep but also ties the program's all-time record for consecutive wins, pushing their perfect season record to 19-0. The Pats have won 45 straight sets.
 
 The Patriots' offense was simply on another level, hitting a jaw-dropping .438 as a team while suffocating the Wildcats and holding them to a .077 clip.
 
