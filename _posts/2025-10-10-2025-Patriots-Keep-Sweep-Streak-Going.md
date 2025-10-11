@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Patriots Keep Sweep Streak Going"
-date: 2025-10-09
+date: 2025-10-10
 author: Admin
 image: /images/2025-10-10-vb.jpg
 image_credit: "Photo from University of the Cumberlands"
