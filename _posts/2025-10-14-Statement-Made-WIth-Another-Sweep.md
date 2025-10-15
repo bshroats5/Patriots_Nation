@@ -33,6 +33,9 @@ With a commanding 2-0 lead, the Patriots left no doubt in the final set. They ju
 
 ## Final Score: #10 Cumberlands 3, #25 Lindsey Wilson 0
 
+## Next Up
+Next up for the Patriots is Thursday at 7 PM vs Campbellsville. 
+
 ## Patriots Nation Player of the Game
 
 **Sara Zampedri**
