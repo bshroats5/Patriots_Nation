@@ -7,9 +7,6 @@ image: /images/2025-10-15-msoc.jpg
 image_credit: "Photo from University of the Cumberlands"
 ---
 
-
-# Patriots Pitch Double Shutout, Sweep Rival Campbellsville
-
 It was a perfect night for soccer at the UC Soccer Complex as the Cumberlands Patriots defended their home turf with a dominant doubleheader sweep over rival Campbellsville. Both the men's and women's teams pitched shutouts, combining for five goals while completely suffocating the Tigers' offenses all evening.
 
 ### Women's Team Erupts in 4-0 Offensive Showcase
