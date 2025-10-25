@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "The Streak Continues"
-date: 2025-10-1
+date: 2025-10-16
 author: Admin
 image: /images/2025-10-16-vb.jpg
 image_credit: "Photo from University of the Cumberlands"
 ---
+
 
 The #10 Cumberlands Patriots volleyball team continued its historic tear through the season on Saturday, defending their home court with a resounding 3-0 sweep (25-15, 25-19, 25-16) over rival Campbellsville. The victory pushes the Patriots' unprecedented winning streak to 22 matches and marks their 17th consecutive sweep, keeping their perfect record intact at 22-0.
 
