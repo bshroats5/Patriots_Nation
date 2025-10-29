@@ -10,8 +10,7 @@ The Cumberlands Patriots Volleyball team is on an historic run but is it smoke a
 
 ## 1️⃣ Defensive Dominance: Shutting Down the Nation
 
-![Defensive Dominance]({{ '/assets/images/defensive_dominance.png' | https://github.com/bshroats5/patriots-vball-data/blob/main/fig/01_lollipop_offensive_efficiency.png}} alt="Defensive Dominance" width="700">)
-
+<img src="{{ '/assets/images/defensive_dominance.png' | relative_url }}" alt="Defensive Dominance chart showing opponent hitting percentage." width="700">
 **Green = Better defense (opponents hitting lower).**
 
 Among the nation’s top programs, **Cumberlands stand alone defensively**.  
@@ -24,7 +23,7 @@ Opponents are simply unable to find kills.
 
 ## 2️⃣ The Complete DNA Profile: Total Team Balance
 
-![Complete DNA Profile]({{ '/assets/images/dna_profile.png' | https://github.com/bshroats5/patriots-vball-data/blob/main/fig/02_heatmap_defensive_dominance.png }}alt="DNA Profile" width="700">)
+<img src="{{ '/assets/images/dna_profile.png' | relative_url }}" alt="Complete DNA Profile chart" width="700">
 
 Every key metric is normalized to show **relative dominance**.
 
@@ -39,7 +38,7 @@ Their DNA shows offensive efficiency, serving power, defensive depth, and consis
 
 ## 3️⃣ The Efficiency Matrix: Offense vs Defense
 
-![Efficiency Matrix]({{ '/assets/images/efficiency_matrix.png' | https://github.com/bshroats5/patriots-vball-data/blob/main/fig/03_scatter_efficiency_matrix.png }}alt="Offense vs Defense" width="700">)
+<img src="{{ '/assets/images/efficiency_matrix.png' | relative_url }}" alt="Efficiency Matrix scatter plot" width="700">
 
 In this quadrant, teams strive for the **bottom‑right corner** (high offense, low opponent efficiency).
 
@@ -50,7 +49,7 @@ They own the game’s two most decisive levers at once.
 
 ## 4️⃣ Hitting Efficiency: Deviation from Average
 
-![Hitting Efficiency Deviation]({{ '/assets/images/hitting_efficiency.png' | https://github.com/bshroats5/patriots-vball-data/blob/main/fig/08_diverging_hitting_efficiency.png }}alt="Hitting Efficiency" width="700">)
+<img src="{{ '/assets/images/hitting_efficiency.png' | relative_url }}" alt="Hitting Efficiency Deviation bar chart" width="700">
 
 This snapshot tells the story numerically:
 
@@ -64,7 +63,7 @@ It confirms Cumberlands’ offense isn’t merely “good” — it’s rede
 
 ## 5️⃣ Offensive and Defensive Presence: Kills vs Blocks
 
-![Kills vs Blocks]({{ '/assets/images/kills_distribution.png' | https://github.com/bshroats5/patriots-vball-data/blob/main/fig/04_bar_kills_distribution.png }}alt="Kills vs Blocks" width="700">)
+<img src="{{ '/assets/images/kills_distribution.png' | relative_url }}" alt="Kills vs Blocks scatter plot" width="700">
 
 Plotting **kills per set** (offense) against **blocks per set** (defense) shows all‑around presence.
 
@@ -77,7 +76,7 @@ Their system supports excellence on both sides of the net, adding to the depth o
 
 ## 6️⃣ Dual Dominance: The Secret Weapon
 
-![Dual Dominance]({{ '/assets/images/offense_defense.png' | https://github.com/bshroats5/patriots-vball-data/blob/main/fig/05_slope_offense_defense.png }}alt="Offense vs Defense" width="700">)
+<img src="{{ '/assets/images/offense_defense.png' | relative_url }}" alt="Dual Dominance slope chart" width="700">
 
 This “slope” chart captures Cumberlands’ **23‑point performance gap** between offense and defense:
 
@@ -93,7 +92,7 @@ A steeper slope = greater separation = a formula for domination.
 
 ## 7️⃣ Offensive Efficiency: The Championship Hallmark
 
-![Offensive Efficiency]({{ '/assets/images/offensive_efficiency.png' | https://github.com/bshroats5/patriots-vball-data/blob/main/fig/01_lollipop_offensive_efficiency.png }}alt="Offensive Efficiency" width="700">)
+<img src="{{ '/assets/images/offensive_efficiency.png' | relative_url }}" alt="Offensive Efficiency lollipop chart" width="700">
 
 Hitting percentage is often the single best predictor of national titles.
 
@@ -106,7 +105,7 @@ Cumberlands aren’t just elite — they’re setting a *new offensive basel
 
 ## 8️⃣ Aggressive Serving: Pressure from the Line
 
-![Aggressive Serving]({{ '/assets/images/serving_pressure.png' | https://github.com/bshroats5/patriots-vball-data/blob/main/fig/07_line_serving_pressure.png }}alt="Serving Pressure" width="700">)
+<img src="{{ '/assets/images/serving_pressure.png' | relative_url }}" alt="Aggressive Serving line chart" width="700">
 
 Aces per set spotlight the team’s aggression from the service line.
 
@@ -117,9 +116,6 @@ Aces per set spotlight the team’s aggression from the service line.
 | **Cumberlands (2025)** | **2.69** |
 
 Serving strength turns defense into offense — a signature of Cumberlands’ system that keeps opponents constantly under pressure.
-
----
-
 ## 🏁 **The Final Word**
 
 Cumberlands’ 2025 season redefines two‑way dominance:
