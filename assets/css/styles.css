@@ -488,7 +488,7 @@ width: auto;
 .post-hero-container figcaption {
   position: absolute;
   /* INCREASE these values to pull the caption away from the corner */
-  bottom: 20px;
+  bottom: 18px;
   right: 20px;
   
   /* Your existing styles */
