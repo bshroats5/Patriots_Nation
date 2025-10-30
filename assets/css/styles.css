@@ -390,6 +390,7 @@ width: auto;
     font-size: 2.5rem;
     margin-bottom: var(--spacing-small);
     text-transform: uppercase;
+    text-align: center;
 }
 
 .blog-header .tagline {
