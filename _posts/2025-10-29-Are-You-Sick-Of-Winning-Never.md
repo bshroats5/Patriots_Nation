@@ -8,7 +8,7 @@ image_credit: "Photo from University of the Cumberlands"
 ---
 
 The Cumberlands Volleyball and Women's Soccer team bot collected dominant wins tonight. The Volleyball Patriots kept up their historic season by absolutely dominating Kentucky State University. Meanwhile, the Women's Soccer Patriots knocked out Georgetown Tigers from the MSC Tournament. Are you sick of all the winning yet? Yeah, me neither. 
----
+
 
 ### Game Recap
 
