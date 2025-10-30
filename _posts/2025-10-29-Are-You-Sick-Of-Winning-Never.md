@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "A Full Day of Action on Homecoming"
+title: "Are You Sick Of Winning Yet? Never!"
 date: 2025-10-29
 author: Admin
-image: /images/2025-10-29-vb.jpg
+image: /images/2025-10-29-wsoc.jpg
 image_credit: "Photo from University of the Cumberlands"
 ---
 
