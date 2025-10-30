@@ -365,6 +365,7 @@ width: auto;
     height: 400px;
     border-radius: var(--radius-medium);
     margin-bottom: var(--spacing-large);
+    align-items: center;
 }
 .post-detail p {
     font-size: 1.1rem;
