@@ -89,3 +89,11 @@ The Patriots return to the court on Wednesday, October 29th, when they host Kent
 ---
 
 It was a day of mixed results for the Cumberlands soccer programs, with a fantastic win for the women's team and a tough loss for the men, who are still well-positioned for the postseason.
+
+## Please Join The Community
+
+**X**: @UCPatsNation
+**Instagram**: @ucpatriotsnation
+**Threads**: @ucpatriotsnation
+**Reddit**: r/CumberlandsPatriots
+**Facebook**: Patriots Nation
