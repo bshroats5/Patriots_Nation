@@ -362,7 +362,7 @@ width: auto;
 }
 .post-detail img.post-hero {
     width: 100%;
-    height: auto;
+    height: 50%;
     border-radius: var(--radius-medium);
     margin-bottom: var(--spacing-large);
 }
