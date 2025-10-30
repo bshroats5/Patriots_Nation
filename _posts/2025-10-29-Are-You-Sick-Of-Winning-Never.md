@@ -63,6 +63,9 @@ The statistical story confirmed the Patriots' complete control of the match, as 
 
 With the victory, the Cumberlands Patriots advance to the semifinals of the Mid-South Conference Tournament.
 
+## Patriots Nation Player of the Match
+**Ines Martin**
+
 # Rankings Rant Again  
 
 The Soccer and Volleyball rankings were released today and my goodness does the NAIA hate us. For the third ranking in a row the Patriots Volleyball team is #10 in the country. They refuse to move us up despite us just continuing to dominate our opponents. Teams ahead of us have even lost multiple matches yet we are stuck in cement. 
