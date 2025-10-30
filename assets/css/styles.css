@@ -478,10 +478,20 @@ width: auto;
   display: block;
 }
 
+/* --- Add this to your stylesheet for the parent container --- */
+.post-hero-container {
+  position: relative; /* This is essential for the figcaption's absolute positioning */
+  display: inline-block; /* Helps contain the element properly */
+}
+
+/* --- Your corrected figcaption styles --- */
 .post-hero-container figcaption {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  /* INCREASE these values to pull the caption away from the corner */
+  bottom: 20px;
+  right: 20px;
+  
+  /* Your existing styles */
   background: rgba(0,0,0,0.7);
   color: var(--white);
   padding: 6px 12px;
