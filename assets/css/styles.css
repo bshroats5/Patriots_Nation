@@ -305,8 +305,8 @@ width: auto;
     box-shadow: var(--shadow-heavy);
 }
 .blog-post img {
-    width: auto;
-    height:auto;
+    width: 220px;
+    height: 150px;
     object-fit: cover;
     border-radius: var(--radius-small);
 }
@@ -362,7 +362,7 @@ width: auto;
 }
 .post-detail img.post-hero {
     width: 100%;
-    height: 300px;
+    height: auto;
     border-radius: var(--radius-medium);
     margin-bottom: var(--spacing-large);
 }
