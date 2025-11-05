@@ -52,3 +52,11 @@ Our first open tournament of the season was a true test of grit, and our wrestle
 We left everything we had in the pool today in one of the most exciting duals you'll ever see. While the final scoreboard showed a narrow 177-175 loss to DePauw, we walked away knowing we made a huge statement, racking up an incredible **13 national cuts** and **four victories**.
 
 The highlight was our absolute domination in the 200 breaststroke, where we swept the **top four spots**! **Helena Jarosz** led the charge to take the win, with **Megan Schoenlein** and **Moa Nyblom** right behind her. Those three now hold the 3rd, 4th, and 5th fastest times in the entire NAIA! **Juliana Lopez Morales** (500 free), **Bella Hoare** (100 fly), and **Morgan Schraudner** (3-meter diving) also secured huge wins for us. We battled to the very end and proved we can compete with anyone.
+
+## Please Join The Community
+
+**X**: @UCPatsNation
+**Instagram**: @ucpatriotsnation
+**Threads**: @ucpatriotsnation
+**Reddit**: r/CumberlandsPatriots
+**Facebook**: Patriots Nation
