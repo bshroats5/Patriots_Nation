@@ -3,7 +3,7 @@ layout: post
 title: "Volleyball Gets To 30 Wins"
 date: 2025-10-31
 author: Admin
-image: /images/2025-11-4-vb.jpg
+image: /images/2025-11-04-vb.jpg
 image_credit: "Photo from University of the Cumberlands"
 ---
 
