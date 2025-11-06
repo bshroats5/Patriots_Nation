@@ -46,7 +46,7 @@ The Cumberlands Classic continues tomorrow with the Patriots hosting IU Southeas
 
 ## Patriots Nation Player of the Game
 
-** Kyle Duke**
+**Kyle Duke**
 
 ## Please Join The Community
 
