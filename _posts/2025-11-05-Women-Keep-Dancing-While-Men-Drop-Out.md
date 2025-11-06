@@ -49,7 +49,11 @@ One more to go. We're playing for the hardware. We're playing for the Mid-South 
 ## Please Join The Community
 
 **X**: @UCPatsNation
+
 **Instagram**: @ucpatriotsnation
+
 **Threads**: @ucpatriotsnation
+
 **Reddit**: r/CumberlandsPatriots
+
 **Facebook**: Patriots Nation
