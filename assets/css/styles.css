@@ -767,3 +767,14 @@ footer {
 .twitter-share-button .fab {
   font-size: 1.2rem; /* Make the bird icon a little bigger */
 }
+
+/* --- Make all content images responsive --- */
+
+/* This targets images inside your main post/article content */
+.post-content img,
+.page-content img,
+article img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Helps remove extra space below the image */
+}
