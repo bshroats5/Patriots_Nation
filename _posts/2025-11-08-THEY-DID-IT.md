@@ -52,3 +52,15 @@ The first season is over. We are 32-0. We are the Mid-South Conference Regular S
 
 ## Patriots Nation Player of the Match
 **Kara Gipson**
+
+## Please Join The Community and Discuss All Things UC
+
+**X**: @UCPatsNation
+
+**Instagram**: @ucpatriotsnation
+
+**Threads**: @ucpatriotsnation
+
+**Reddit**: r/CumberlandsPatriots
+
+**Facebook**: Patriots Nation

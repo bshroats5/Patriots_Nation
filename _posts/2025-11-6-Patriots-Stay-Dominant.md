@@ -49,7 +49,7 @@ We're right back at it tomorrow morning, ready to defend our home court again as
 
 **Lakin Burke**
 
-## Please Join The Community
+## Please Join The Community and Discuss All Things UC
 
 **X**: @UCPatsNation
 
