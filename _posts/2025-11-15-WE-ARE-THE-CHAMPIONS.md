@@ -45,3 +45,15 @@ The Mid-South Conference season is over. We accomplished the mission. We are the
 
 ### Patriots Nation Player Of The Game
 **Sara Zampedri**
+
+## Please Join The Community and Discuss All Things UC
+
+**X**: @UCPatsNation
+
+**Instagram**: @ucpatriotsnation
+
+**Threads**: @ucpatriotsnation
+
+**Reddit**: r/CumberlandsPatriots
+
+**Facebook**: Patriots Nation
