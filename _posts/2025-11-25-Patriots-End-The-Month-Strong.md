@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Patriots End The Month Stron"
+title: "Patriots End The Month Strong"
 date: 2025-11-18
 author: Admin
 image: /images/2025-11-25-wbb.jpg
