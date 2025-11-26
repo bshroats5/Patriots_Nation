@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Patriots End The Month Stron"
+date: 2025-11-18
+author: Admin
+image: /images/2025-11-25-wbb.jpg
+image_credit: "Photo from University of the Cumberlands"
+---
+
+
+
+
 ### 9-1. Dominance. We Protected Our Home Court.
 
 Another game, another decisive victory. We defended Randy Vernon Court, defeating Indiana University Southeast 87-56. That's a 31-point win. We're now 9-1 on the season. This is the standard. This is how we execute.
@@ -53,3 +65,15 @@ The Patriots are done for a holiday break. The next game is December 2 vs Washin
 ### Patriots Nation Player of the Game
 
 **Lakin Burke**
+
+## Please Join The Community and Discuss All Things UC
+
+**X**: @UCPatsNation
+
+**Instagram**: @ucpatriotsnation
+
+**Threads**: @ucpatriotsnation
+
+**Reddit**: r/CumberlandsPatriots
+
+**Facebook**: Patriots Nation
