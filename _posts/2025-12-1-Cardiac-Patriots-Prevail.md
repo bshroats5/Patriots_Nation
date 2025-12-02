@@ -3,7 +3,7 @@ layout: post
 title: "Cardiac Patriots Prevail"
 date: 2025-12-1
 author: Admin
-image: /images/2025-12-1-
+image: /images/2025-12-1-msoc.jpg
 image_credit: "Photo from University of the Cumberlands"
 ---
 
