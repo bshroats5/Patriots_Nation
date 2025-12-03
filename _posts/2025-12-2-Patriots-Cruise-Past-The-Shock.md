@@ -89,3 +89,15 @@ With the game firmly in hand, we continued to pour it on. Joy Kendrick and Jaydy
 ### What's Next: Facing a Ranked Opponent
 
 We now turn our attention to a road trip, facing **#23 Shawnee State University** on **Thursday, December 4, at 6 PM** in Portsmouth, OH. Shawnee State is a tough opponent on the road. 
+
+## Please Join The Community and Discuss All Things UC
+
+**X**: @UCPatsNation
+
+**Instagram**: @ucpatriotsnation
+
+**Threads**: @ucpatriotsnation
+
+**Reddit**: r/CumberlandsPatriots
+
+**Facebook**: Patriots Nation
