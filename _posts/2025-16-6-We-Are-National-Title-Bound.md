@@ -43,7 +43,7 @@ We didn't just survive this game; we controlled the tempo.
 
 We are 17-4-3. We have beaten the best to get here. But let's be very clear: **The job is not finished.**
 
-We didn't come to Pensacola just to make the final. We came to win it. We have one game left. One opponent standing between us and history. We rest, we recover, and we prepare to hoist that trophy again.
+We didn't come to Pensacola just to make the final. We came to win it. We have one game left. One opponent standing between us and history. We rest, we recover, and we prepare to hoist that trophy again. We will face either Embry-Riddle or Keiser on Monday at 1 PM EST. 
 
 **WE ARE PLAYING FOR THE NATIONAL TITLE.**
 
