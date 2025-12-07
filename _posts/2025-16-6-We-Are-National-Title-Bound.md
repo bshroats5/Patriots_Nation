@@ -3,7 +3,7 @@ layout: post
 title: "We Are National Title Bound"
 date: 2025-12-6
 author: Admin
-image: /images/2025-12-6-wsoc.jpg
+image: /images/2025-12-6-wsoc.jpeg
 image_credit: "Photo from University of the Cumberlands"
 ---
 
