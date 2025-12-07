@@ -9,7 +9,7 @@ image_credit: "Photo from University of the Cumberlands"
 
 Pack your bags. We are going back to the big dance.
 
-For the second time in three years, the Cumberlands Patriots are playing for the Red Banner. We faced a 21-win Oklahoma Wesleyan team in the NAIA National Semifinals, and we did what we do best: we grinded, we executed, and we pitched a shutout. Final score: 1-0.
+For the second time in three years, the Cumberlands Patriots are playing for the Red Banner. We faced a 21-win Oklahoma Wesleyan team in the NAIA National Semifinals, and we did what we do best: we grinded, we executed, and we pitched a shutout. An OKWU team that had conceded only 5 goals all season. Final score: 1-0 Pats. 
 
 We won it all in 2023. We know the path. Now, we are one win away from bringing another title back to Williamsburg.
 
