@@ -3,7 +3,7 @@ layout: post
 title: "Pats Skyhawks National Title Preview"
 date: 2025-12-7
 author: Admin
-image: /images/2025-12-7-wsoc.jpeg
+image: /images/2025-12-7-wsoc.jpg
 image_credit: "Photo from University of the Cumberlands"
 ---
 
