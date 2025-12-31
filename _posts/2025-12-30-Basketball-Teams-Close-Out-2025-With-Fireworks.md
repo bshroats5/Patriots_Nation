@@ -38,6 +38,9 @@ Defensively, the Patriots forced 12 turnovers and held Milligan to **36.9% shoot
 ### Up Next
 Cumberlands returns to action Saturday, January 3, hosting Dalton State at **3:00 p.m.** inside the O. Wayne Rollins Center.
 
+## Patriots Nation Player of the Game
+**Drew McConnell**
+
 ## No. 12 Cumberlands Cruises Past Union Commonwealth, 83-35
 
 The No. 12-ranked University of the Cumberlands women’s basketball team extended its winning streak to eight games Tuesday night, earning an **83-35** victory over Union Commonwealth on Randy Vernon Court.
@@ -74,6 +77,9 @@ Cumberlands dominated the statistical categories:
 - **Rebounding Margin:** UC +26  
 
 Union Commonwealth was limited to just **four made three-pointers** and 16 points in the paint.
+
+## Patriots Nation Player of the Game
+**JOY KENDRICK**
 
 ### Up Next
 The Patriots return to action Saturday, January 3, when they host Miami-Hamilton. Tip-off is set for **1:00 p.m.** inside the Rollins Center.
