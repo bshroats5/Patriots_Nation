@@ -3,7 +3,7 @@ layout: post
 title: "Basketball Teams Get First MSC Wins"
 date: 2026-1-16
 author: Admin
-image: /images/2025-1-16-wbb.jpg
+image: /images/2026-1-16-wbb.jpg
 image_credit: "Photo from University of the Cumberlands"
 ---
 
