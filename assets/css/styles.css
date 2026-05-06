@@ -361,14 +361,9 @@ width: auto;
     font-size: 0.8rem;
 }
 .post-detail img.post-hero {
-    /* --- Add these two lines --- */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-    /* --- Your existing styles --- */
-    width: 600px;
-    height: 400px;
+    width: 100%;
+    height: auto;
     border-radius: var(--radius-medium);
     margin-bottom: var(--spacing-large);
 }
@@ -468,6 +463,8 @@ width: auto;
 
 .post-hero-container {
   position: relative;
+  display: block;
+  width: 100%;
   margin-bottom: var(--spacing-large);
 }
 
@@ -476,12 +473,6 @@ width: auto;
   height: auto;
   border-radius: var(--radius-medium);
   display: block;
-}
-
-/* --- Add this to your stylesheet for the parent container --- */
-.post-hero-container {
-  position: relative; /* This is essential for the figcaption's absolute positioning */
-  display: inline-block; /* Helps contain the element properly */
 }
 
 /* --- Your corrected figcaption styles --- */
