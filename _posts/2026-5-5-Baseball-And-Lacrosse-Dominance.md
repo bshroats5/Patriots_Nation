@@ -4,7 +4,7 @@ title: "Baseball and Women's Lacrosse Cap Historic Seasons with Tournament Glory
 date: 2026-05-05
 author: Admin
 image: /images/Patriots-Championships-2026.jpg
-image_credit: "Photo from University of the Cumberlands"
+image_credit: "Photos from University of the Cumberlands"
 ---
 
 ## Patriots Punch Ticket to NAIA Quarterfinals: A #2 Seed Showdown!
