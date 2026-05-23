@@ -25,5 +25,4 @@ permalink: /contact/
       If you don't see our contact links above, please check your ad blocker settings.
     </p>
   </noscript>
-</div>
 </section>
