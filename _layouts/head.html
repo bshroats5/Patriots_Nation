@@ -1,0 +1,52 @@
+{%- assign page_title = page.title | default: site.title -%}
+{%- assign full_title = page_title -%}
+{%- if page.title and page.url != "/" -%}
+  {%- assign full_title = page.title | append: " | " | append: site.title -%}
+{%- endif -%}
+{%- assign desc = page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 155 -%}
+{%- assign share_image = page.image | default: site.og_default -%}
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0E1F3C">
+
+<title>{{ full_title }}</title>
+<meta name="description" content="{{ desc }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ desc }}">
+<meta property="og:image" content="{{ share_image | absolute_url }}">
+<meta property="og:image:alt" content="{{ page_title }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+{%- if page.layout == "post" %}
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+<meta property="article:author" content="{{ page.author | default: site.author }}">
+{%- endif %}
+
+<!-- X / Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{ site.social.x }}">
+<meta name="twitter:title" content="{{ page_title }}">
+<meta name="twitter:description" content="{{ desc }}">
+<meta name="twitter:image" content="{{ share_image | absolute_url }}">
+
+<!-- Icons -->
+<link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">
+<link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg">
+<link rel="apple-touch-icon" href="/images/favicon/apple-touch-icon.png">
+<link rel="manifest" href="/images/favicon/site.webmanifest">
+
+<!-- Type -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+
+{% feed_meta %}
+{% include google-analytics.html %}
