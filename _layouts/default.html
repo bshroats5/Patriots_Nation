@@ -1,69 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">
-  <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg">
-  <link rel="apple-touch-icon" href="/images/favicon/apple-touch-icon.png">
-  <link rel="manifest" href="/images/favicon/site.webmanifest">
+---
+layout: default
+---
 
+<article class="post-detail">
 
-  <!-- site-wide styles -->
-  <link rel="stylesheet"
-      href="{{ '/assets/css/styles.css' | relative_url }}">
+  {% if page.image %}
+  <figure class="post-hero-container">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}"
+         class="post-hero" width="2000" height="1125"
+         loading="eager" fetchpriority="high" decoding="async">
+    {% if page.image_credit %}
+    <figcaption>{{ page.image_credit }}</figcaption>
+    {% endif %}
+  </figure>
+  {% endif %}
 
-  <!-- Font Awesome for icons -->
-<link rel="stylesheet" 
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
-      crossorigin="anonymous" 
-      referrerpolicy="no-referrer">
+  <div class="container">
+    <header class="post-header">
+      {% if page.sport %}
+      <p class="rail">
+        {{ page.sport }}{% if page.event %} &middot; {{ page.event }}{% endif %}
+      </p>
+      {% endif %}
 
-<!-- Google Analytics -->
-  <title>{{ page.title }} | {{ site.title }}</title>
+      <h1>{{ page.title }}</h1>
 
-  {% include google-analytics.html %}
-</head>
-<body>
+      {% if page.result %}
+      <p class="result-pill {% if page.result == 'W' %}win{% else %}loss{% endif %}">
+        {{ page.result }}{% if page.score %} &nbsp;{{ page.score }}{% endif %}
+      </p>
+      {% endif %}
 
-  <!-- NAVIGATION -->
-  <nav>
-    <a href="{{ '/' | relative_url }}" class="logo">
-      <!-- Make sure this image path is correct. It looks like it should be /assets/images/PN_Logo.png -->
-      <img src="{{ '/images/PN_Logo.png' | relative_url }}" alt="Logo">
+      <div class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date: "%B %-d, %Y" }}
+        </time>
+        {% if page.author %}<span class="author">by {{ page.author }}</span>{% endif %}
+      </div>
+    </header>
+
+    <div class="post-content">
+      {{ content }}
+    </div>
+
+    <div class="share-buttons">
+      <p class="rail">Share this</p>
+      <a class="share x" target="_blank" rel="noopener"
+         href="https://x.com/intent/post?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}&via={{ site.social.x }}">X</a>
+      <a class="share fb" target="_blank" rel="noopener"
+         href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}">Facebook</a>
+      <a class="share rd" target="_blank" rel="noopener"
+         href="https://www.reddit.com/submit?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}">Reddit</a>
+    </div>
+  </div>
+</article>
+
+<div class="container">
+  <nav class="post-navigation" aria-label="More posts">
+    {% if page.previous %}
+    <a class="prev" href="{{ page.previous.url | relative_url }}">
+      <span class="rail">← Previous</span>
+      <span class="nav-title">{{ page.previous.title }}</span>
     </a>
+    {% else %}<span></span>{% endif %}
 
-    <ul>
-      <li><a href="{{ '/' | relative_url }}">Home</a></li>
-      <li><a href="{{ '/blog/' | relative_url }}">Posts</a></li>
-      <li><a href="{{ '/events/' | relative_url }}">Events</a></li>
-      <li><a href="https://www.reddit.com/r/CumberlandsPatriots/" target="_blank" rel="noopener">Community</a></li>
-      <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
-    </ul>
-    
-    <!-- This is where your mobile menu button should go if it's not already in your HTML -->
-    <button class="mobile-menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
+    {% if page.next %}
+    <a class="next" href="{{ page.next.url | relative_url }}">
+      <span class="rail">Next →</span>
+      <span class="nav-title">{{ page.next.title }}</span>
+    </a>
+    {% else %}<span></span>{% endif %}
   </nav>
 
-  <!-- Page Content -->
-  <main>
-    {{ content }}
-  </main>
+  <p class="back-to-blog"><a href="{{ '/blog/' | relative_url }}">← All posts</a></p>
 
-  <!-- FOOTER -->
-  <footer>
-    <p>&copy; {{ site.time | date: "%Y" }} Patriots Nation</p>
-  </footer>
-  
-  <!-- Back to top button if you have one -->
-  <button class="back-to-top">↑</button>
-
-<script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
-</body>
-</html>
+  {% include social.html %}
+</div>
