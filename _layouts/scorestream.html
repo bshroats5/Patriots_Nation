@@ -1,0 +1,12 @@
+{%- comment -%}
+  Game Center widget.
+  Usage: {% include scorestream.html title="Game Center" %}
+  Paste the ScoreStream embed inside the container div below.
+{%- endcomment -%}
+<section class="game-center">
+  <h2>{{ include.title | default: "Game Center" }}</h2>
+  <div class="scorestream-widget-container">
+    <div class="scorestream-widget-container" data-ss_widget_type="vertScoreboard" style="height:600px;" data-user-widget-id="65793"></div><script async="async" type="text/javascript" src="https://scorestream.com/apiJsCdn/widgets/embed.js"></script>
+  </div>
+  <p class="rail" style="margin:var(--s1) 0 0">Scores via ScoreStream</p>
+</section>
