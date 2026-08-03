@@ -23,7 +23,7 @@ email: cumberlandspatriotsnation@gmail.com
 
 
 # Default share image, 1200x630. Used when a post has no image.
-og_default: /images/og-default.jpg
+og_default: /images/PN_Banner.jpg
 
 plugins:
   - jekyll-feed

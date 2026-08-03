@@ -238,8 +238,7 @@ hr{border:0;height:1px;background:var(--line);margin:var(--s4) 0}
   color:#fff;
   background:
     linear-gradient(to top,rgba(14,31,60,.92) 20%,rgba(14,31,60,.45)),
-    url('/images/stadium-banner.jpg') center/cover no-repeat;
-  background-color:var(--ink);
+        url('/images/PN_Banner.jpg') center/cover no-repeat;  background-color:var(--ink);
 }
 .blog-hero > *,
 .contact-hero > *{position:relative;z-index:2;width:100%;max-width:var(--wrap);margin-inline:auto}
