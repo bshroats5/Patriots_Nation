@@ -18,12 +18,14 @@ social:
   instagram: ucpatriotsnation
   threads: ucpatriotsnation
   reddit: CumberlandsPatriots
-  facebook: Patriots Nation
+  # Facebook needs a full URL — the page name contains a space and
+  # cannot be slugged reliably.
+  facebook_url: https://www.facebook.com/people/Patriots-Nation/61581164078548/
 email: cumberlandspatriotsnation@gmail.com
 
 
 # Default share image, 1200x630. Used when a post has no image.
-og_default: /images/PN_Banner.jpg
+og_default: /images//images/PN_Banner.jpg
 
 plugins:
   - jekyll-feed
@@ -45,7 +47,7 @@ defaults:
       type: "posts"
     values:
       layout: post
-      author: Bret
+      author: admin
 
 markdown: kramdown
 kramdown:

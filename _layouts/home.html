@@ -2,6 +2,14 @@
 layout: default
 ---
 
+{%- comment -%}
+  HOMEPAGE ONLY.
+  This file must end after the .social-section block below. If you see
+  share buttons, a "← All posts" link, or "Join the conversation" on the
+  homepage, the tail of post.html has been pasted in here — delete
+  everything after </section>.
+{%- endcomment -%}
+
 <figure class="hero">
   <img src="{{ page.hero_image | default: '/images/UC-Soccer.jpg' | relative_url }}"
        alt="" width="2000" height="1125"
@@ -16,7 +24,9 @@ layout: default
 </figure>
 
 {% if content != "" %}
-<div class="container">{{ content }}</div>
+<div class="container">
+  <div class="intro-text">{{ content }}</div>
+</div>
 {% endif %}
 
 <section class="latest container">
@@ -37,7 +47,7 @@ layout: default
   </div>
 </section>
 
-{% include scorestream.html title="Game Center" %}
+{% include scorestream.html title="Live Scores &amp; Schedule" %}
 
 <section class="social-section">
   <h2>Follow along</h2>
@@ -46,7 +56,7 @@ layout: default
     <a class="social-btn-uniform" href="https://x.com/{{ site.social.x }}" target="_blank" rel="noopener me">X</a>
     <a class="social-btn-uniform" href="https://instagram.com/{{ site.social.instagram }}" target="_blank" rel="noopener me">Instagram</a>
     <a class="social-btn-uniform" href="https://www.reddit.com/r/{{ site.social.reddit }}/" target="_blank" rel="noopener me">Reddit</a>
-    <a class="social-btn-uniform" href="https://www.facebook.com/{{ site.social.facebook }}" target="_blank" rel="noopener me">Facebook</a>
+    <a class="social-btn-uniform" href="{{ site.social.facebook_url }}" target="_blank" rel="noopener me">Facebook</a>
     <a class="social-btn-uniform" href="https://www.threads.net/@{{ site.social.threads }}" target="_blank" rel="noopener me">Threads</a>
   </div>
 </section>

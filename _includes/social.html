@@ -1,6 +1,7 @@
 {%- assign compact = include.compact | default: false -%}
-<aside class="social-follow{% if compact %} compact{% endif %}">
-  {% unless compact %}<h2>Join the conversation</h2>{% endunless %}
+{% unless compact %}
+Join the conversation
+{% endunless %}
   <ul class="social-list">
     <li><a href="https://x.com/UCPatsNation rel="me noopener" target="_blank">X<span> — @{{ site.social.x }}</span></a></li>
     <li><a href="https://instagram.com/ucpatriotsnation rel="me noopener" target="_blank">Instagram<span> — @{{ site.social.instagram }}</span></a></li>
