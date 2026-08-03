@@ -1,62 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  {% include head.html %}
-</head>
-<body>
+---
+layout: default
+---
 
-  <a class="skip-link" href="#main">Skip to content</a>
-
-  <!-- NAVIGATION -->
-  <header class="site-header">
-    <nav aria-label="Main">
-      <a href="{{ '/' | relative_url }}" class="logo">
-        <img src="{{ '/images/PN_Logo.png' | relative_url }}"
-             alt="Patriots Nation" width="200" height="64"
-             loading="eager" decoding="async">
-      </a>
-
-      <button class="mobile-menu-toggle" aria-label="Menu"
-              aria-expanded="false" aria-controls="site-menu">
-        <span></span><span></span><span></span>
-      </button>
-
-      <ul id="site-menu">
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/blog/' | relative_url }}">Posts</a></li>
-        <li><a href="{{ '/events/' | relative_url }}">Events</a></li>
-        <li><a href="https://www.reddit.com/r/{{ site.social.reddit }}/" target="_blank" rel="noopener">Community</a></li>
-        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="ridge" aria-hidden="true"></div>
-  </header>
-
-  <main id="main">
-    {{ content }}
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="ridge" aria-hidden="true"></div>
-    <div class="footer-inner container">
-      <div class="footer-brand">
-        <p class="wordmark">Patriots&nbsp;Nation</p>
-        <p class="rail">Independent since day one</p>
-      </div>
-      {% include social.html compact=true %}
-      <p class="disclaimer">
-        &copy; {{ site.time | date: "%Y" }} Patriots Nation.
-        An independent, fan-run publication. Not affiliated with, endorsed by,
-        or sponsored by the University of the Cumberlands. All team names and
-        marks belong to their respective owners.
-      </p>
-      <p class="rail"><a href="{{ '/feed.xml' | relative_url }}">RSS</a></p>
+<figure class="hero">
+  <img src="{{ page.hero_image | default: '/images/UC-Soccer.jpg' | relative_url }}"
+       alt="" width="2000" height="1125"
+       loading="eager" fetchpriority="high" decoding="async">
+  <div class="hero-overlay">
+    <div class="container">
+      <h1>{{ page.hero_title | default: site.title }}</h1>
+      <p class="tagline">{{ page.tagline | default: 'Made by fans, for fans — your home for UC Patriots news.' }}</p>
     </div>
-  </footer>
+  </div>
+  {% if page.image_credit %}<figcaption class="credit">{{ page.image_credit }}</figcaption>{% endif %}
+</figure>
 
-  <button class="back-to-top" aria-label="Back to top" tabindex="-1" aria-hidden="true">↑</button>
+{% if content != "" %}
+<div class="container">{{ content }}</div>
+{% endif %}
 
-  <script src="{{ '/assets/js/scripts.js' | relative_url }}" defer></script>
-</body>
-</html>
+<section class="latest container">
+  <div class="section-head">
+    <div>
+      <p class="rail">Latest</p>
+      <h2>From the blog</h2>
+    </div>
+    <a class="all-link" href="{{ '/blog/' | relative_url }}">All posts →</a>
+  </div>
+
+  <div class="posts-grid">
+    {% for post in site.posts limit: 3 %}
+      {% include post-card.html post=post %}
+    {% else %}
+      <p class="empty">No posts yet — check back after this weekend's games.</p>
+    {% endfor %}
+  </div>
+</section>
+
+{% include scorestream.html title="Game Center" %}
+
+<section class="social-section">
+  <h2>Follow along</h2>
+  <div class="social-buttons-uniform">
+    <a class="social-btn-uniform primary" href="{{ '/feed.xml' | relative_url }}">Subscribe by RSS</a>
+    <a class="social-btn-uniform" href="https://x.com/{{ site.social.x }}" target="_blank" rel="noopener me">X</a>
+    <a class="social-btn-uniform" href="https://instagram.com/{{ site.social.instagram }}" target="_blank" rel="noopener me">Instagram</a>
+    <a class="social-btn-uniform" href="https://www.reddit.com/r/{{ site.social.reddit }}/" target="_blank" rel="noopener me">Reddit</a>
+    <a class="social-btn-uniform" href="https://www.facebook.com/{{ site.social.facebook }}" target="_blank" rel="noopener me">Facebook</a>
+    <a class="social-btn-uniform" href="https://www.threads.net/@{{ site.social.threads }}" target="_blank" rel="noopener me">Threads</a>
+  </div>
+</section>
