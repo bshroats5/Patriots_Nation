@@ -1,16 +1,62 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
 
-<div class="hero">
-  <img src="/images/UC-Soccer.jpg" alt="University of the Cumberlands Soccer Stadium">
-  <p class="credit">Photo credit: University of the Cumberlands</p>
-  <div class="hero-overlay">
-    <h1>{{ page.title }}</h1>
-    <p class="tagline">Made by fans, for fans — your home for UC Patriots news.</p>
-  </div>
-</div>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<div class="content container">
-  {{ content }}
-</div>
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <nav aria-label="Main">
+      <a href="{{ '/' | relative_url }}" class="logo">
+        <img src="{{ '/images/PN_Logo.png' | relative_url }}"
+             alt="Patriots Nation" width="200" height="64"
+             loading="eager" decoding="async">
+      </a>
+
+      <button class="mobile-menu-toggle" aria-label="Menu"
+              aria-expanded="false" aria-controls="site-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul id="site-menu">
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}">Posts</a></li>
+        <li><a href="{{ '/events/' | relative_url }}">Events</a></li>
+        <li><a href="https://www.reddit.com/r/{{ site.social.reddit }}/" target="_blank" rel="noopener">Community</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="ridge" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="ridge" aria-hidden="true"></div>
+    <div class="footer-inner container">
+      <div class="footer-brand">
+        <p class="wordmark">Patriots&nbsp;Nation</p>
+        <p class="rail">Independent since day one</p>
+      </div>
+      {% include social.html compact=true %}
+      <p class="disclaimer">
+        &copy; {{ site.time | date: "%Y" }} Patriots Nation.
+        An independent, fan-run publication. Not affiliated with, endorsed by,
+        or sponsored by the University of the Cumberlands. All team names and
+        marks belong to their respective owners.
+      </p>
+      <p class="rail"><a href="{{ '/feed.xml' | relative_url }}">RSS</a></p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top" tabindex="-1" aria-hidden="true">↑</button>
+
+  <script src="{{ '/assets/js/scripts.js' | relative_url }}" defer></script>
+</body>
+</html>
