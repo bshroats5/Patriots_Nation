@@ -1,18 +1,62 @@
-title: "Patriots Nation"
-description: "Latest news, updates, and fan stories"
+# ===================================
+# PATRIOTS NATION — _config.yml
+# ===================================
 
+title: Patriots Nation
+tagline: Made by fans, for fans
+description: >-
+  Independent coverage of University of the Cumberlands Patriots athletics —
+  recaps, previews, box scores and features across all twenty sports.
 url: "https://patriotsnation.page"
 baseurl: ""
+author: Bret
+lang: en_US
+
+# Social handles — used by _includes/social.html and the OG tags.
+social:
+  x: UCPatsNation
+  instagram: ucpatriotsnation
+  threads: ucpatriotsnation
+  reddit: CumberlandsPatriots
+  facebook: Patriots Nation
+email: cumberlandspatriotsnation@gmail.com
+
+
+# Default share image, 1200x630. Used when a post has no image.
+og_default: /images/og-default.jpg
 
 plugins:
+  - jekyll-feed
   - jekyll-paginate
-paginate: 5
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+feed:
+  path: /feed.xml
+
+paginate: 9
 paginate_path: "/blog/page:num/"
 
-# Add this to make pagination work on blog.md
-plugins:
-  - jekyll-paginate
+permalink: /:year/:month/:day/:title/
 
-  # Google Analytics plugin
-  - jekyll-google-analytics
-google_analytics: "G-ZM02M55KR5"
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: Bret
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
