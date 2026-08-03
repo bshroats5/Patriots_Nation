@@ -1,111 +1,160 @@
 // ===================================
-// PATRIOTS NATION JAVASCRIPT (Full & Final)
+// PATRIOTS NATION — scripts.js
 // ===================================
 
-// Wait for the entire HTML document to be loaded before running any scripts
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
 
-    // 1. MOBILE NAVIGATION TOGGLE
-    // Selects the hamburger button and the navigation list
-    const menuToggle = document.querySelector('.mobile-menu-toggle');
-    const navUl = document.querySelector('nav ul');
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var scrollBehavior = reduceMotion ? 'auto' : 'smooth';
 
-    // Make sure both elements exist before adding the click event
-    if (menuToggle && navUl) {
-        menuToggle.addEventListener('click', function() {
-            // Toggles the 'active' class on the button (for the X animation)
-            menuToggle.classList.toggle('active');
-            // Toggles the 'active' class on the menu (to slide it in/out)
-            navUl.classList.toggle('active');
-        });
-    }
+  // -----------------------------------
+  // 1. MOBILE NAVIGATION
+  // -----------------------------------
+  var menuToggle = document.querySelector('.mobile-menu-toggle');
+  var navUl = document.querySelector('nav ul');
 
+  if (menuToggle && navUl) {
+    var setMenu = function (open) {
+      menuToggle.classList.toggle('active', open);
+      navUl.classList.toggle('active', open);
+      menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    };
 
-    // 2. BACK TO TOP BUTTON
-    // Selects the button from the HTML
-    const backToTopBtn = document.querySelector('.back-to-top');
-
-    // Check if the button exists on the page
-    if (backToTopBtn) {
-        // Add a scroll event listener to the window
-        window.addEventListener('scroll', function() {
-            // If user has scrolled down more than 300px, show the button
-            if (window.scrollY > 300) {
-                backToTopBtn.classList.add('visible');
-            } else {
-                // Otherwise, hide it
-                backToTopBtn.classList.remove('visible');
-            }
-        });
-
-        // Add a click event listener to the button
-        backToTopBtn.addEventListener('click', function() {
-            // Scroll the window smoothly to the top of the page
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-    }
-
-
-    // 3. ACTIVE NAVIGATION HIGHLIGHTING
-    // Determines the current page and adds an 'active' class to the corresponding nav link
-    const currentPageFile = window.location.pathname.split('/').pop() || 'index.html';
-    const navLinks = document.querySelectorAll('nav ul li a');
-
-    navLinks.forEach(link => {
-        const linkFile = link.getAttribute('href').split('/').pop();
-        // If the link's href matches the current page's file, add the active class
-        if (linkFile === currentPageFile) {
-            link.classList.add('active');
-        }
+    menuToggle.addEventListener('click', function () {
+      setMenu(!navUl.classList.contains('active'));
     });
 
-
-    // 4. SMOOTH SCROLLING FOR ANCHOR LINKS (e.g., links starting with #)
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            // Prevent the default jumpy behavior
-            e.preventDefault();
-            
-            const targetId = this.getAttribute('href');
-            const targetElement = document.querySelector(targetId);
-
-            // If the target element exists, scroll to it smoothly
-            if (targetElement) {
-                targetElement.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
-        });
+    // Close when a link is tapped — otherwise the menu stays open
+    // over the new page on mobile.
+    navUl.addEventListener('click', function (e) {
+      if (e.target.closest('a')) setMenu(false);
     });
 
+    // Close on Escape, and return focus to the button.
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && navUl.classList.contains('active')) {
+        setMenu(false);
+        menuToggle.focus();
+      }
+    });
 
-    // 5. LAZY LOADING FOR IMAGES (for better performance)
-    // This makes images load only when they are about to enter the viewport
-    const imagesToLazyLoad = document.querySelectorAll('img.lazy-load');
+    // Close when tapping outside the nav.
+    document.addEventListener('click', function (e) {
+      if (!navUl.classList.contains('active')) return;
+      if (e.target.closest('nav')) return;
+      setMenu(false);
+    });
+  }
 
-    // Check if the browser supports IntersectionObserver
-    if ('IntersectionObserver' in window) {
-        const imageObserver = new IntersectionObserver(function(entries, observer) {
-            entries.forEach(function(entry) {
-                // When the image is intersecting with the viewport
-                if (entry.isIntersecting) {
-                    const image = entry.target;
-                    // Replace the src with the data-src value
-                    image.src = image.dataset.src;
-                    // Remove the lazy-load class
-                    image.classList.remove('lazy-load');
-                    // Add the loaded class to trigger fade-in animation
-                    image.classList.add('loaded');
-                    // Stop observing this image
-                    imageObserver.unobserve(image);
-                }
-            });
-        });
+  // -----------------------------------
+  // 2. BACK TO TOP
+  // -----------------------------------
+  var backToTopBtn = document.querySelector('.back-to-top');
 
-        imagesToLazyLoad.forEach(image => imageObserver.observe(image));
+  if (backToTopBtn) {
+    var ticking = false;
+
+    var updateBtn = function () {
+      var show = window.scrollY > 300;
+      backToTopBtn.classList.toggle('visible', show);
+      // Keep it out of the tab order while it's invisible.
+      backToTopBtn.setAttribute('tabindex', show ? '0' : '-1');
+      backToTopBtn.setAttribute('aria-hidden', show ? 'false' : 'true');
+      ticking = false;
+    };
+
+    // Throttled to one update per animation frame instead of one per
+    // scroll event — the original fired hundreds of times a second.
+    window.addEventListener('scroll', function () {
+      if (!ticking) {
+        window.requestAnimationFrame(updateBtn);
+        ticking = true;
+      }
+    }, { passive: true });
+
+    backToTopBtn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: scrollBehavior });
+    });
+
+    updateBtn();
+  }
+
+  // -----------------------------------
+  // 3. ACTIVE NAVIGATION
+  // -----------------------------------
+  // Normalises both sides to a trailing-slash path so Jekyll's pretty
+  // URLs match. Handles /blog/, /blog, /blog/index.html and /.
+  var normalise = function (path) {
+    try {
+      path = new URL(path, window.location.origin).pathname;
+    } catch (err) {
+      return null;
     }
+    path = path.replace(/index\.html?$/, '');
+    if (!path.endsWith('/')) path += '/';
+    return path;
+  };
+
+  var currentPath = normalise(window.location.pathname);
+  var navLinks = document.querySelectorAll('nav ul li a');
+
+  navLinks.forEach(function (link) {
+    var href = link.getAttribute('href');
+    if (!href || link.hostname !== window.location.hostname) return;
+
+    var linkPath = normalise(href);
+    if (!linkPath) return;
+
+    // Exact match for the home link; prefix match elsewhere so a post
+    // at /blog/2026/05/23/... still lights up "Posts".
+    var isActive = linkPath === '/'
+      ? currentPath === '/'
+      : currentPath.indexOf(linkPath) === 0;
+
+    if (isActive) {
+      link.classList.add('active');
+      link.setAttribute('aria-current', 'page');
+    }
+  });
+
+  // -----------------------------------
+  // 4. SMOOTH SCROLL FOR ANCHORS
+  // -----------------------------------
+  document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+    anchor.addEventListener('click', function (e) {
+      var targetId = this.getAttribute('href');
+
+      // A bare "#" would throw inside querySelector.
+      if (!targetId || targetId === '#') return;
+
+      var targetElement = document.getElementById(targetId.slice(1));
+      if (!targetElement) return;
+
+      e.preventDefault();
+      targetElement.scrollIntoView({ behavior: scrollBehavior, block: 'start' });
+
+      // Move keyboard focus too, or screen-reader users stay put.
+      targetElement.setAttribute('tabindex', '-1');
+      targetElement.focus({ preventScroll: true });
+
+      history.pushState(null, '', targetId);
+    });
+  });
+
+  // -----------------------------------
+  // 5. LAZY LOADING — removed
+  // -----------------------------------
+  // Replaced by the browser's native lazy loading. Add these two
+  // attributes to the <img> tags in post.html, blog.html and home.html:
+  //
+  //   <img src="..." alt="..." loading="lazy" decoding="async"
+  //        width="1200" height="675">
+  //
+  // Exception: the hero image and the post hero should use
+  // loading="eager" fetchpriority="high" — they are above the fold,
+  // and lazy-loading them delays your largest contentful paint.
+  //
+  // Always set width and height. Without them the page reflows as
+  // each image arrives, which is most of the jump you see on mobile.
+
 });
