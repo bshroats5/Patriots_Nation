@@ -1,78 +1,16 @@
----
-layout: default
----
+--- layout: null --- {% include head.html %}
+{{ site.title }}
+Home
+Blog
+Events
+Contact
 
-<article class="post-detail">
+{{ content }}
+{{ site.title }}
 
-  {% if page.image %}
-  <figure class="post-hero-container">
-    <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}"
-         class="post-hero" width="2000" height="1125"
-         loading="eager" fetchpriority="high" decoding="async">
-    {% if page.image_credit %}
-    <figcaption>{{ page.image_credit }}</figcaption>
-    {% endif %}
-  </figure>
-  {% endif %}
+{{ site.tagline }}
 
-  <div class="container">
-    <header class="post-header">
-      {% if page.sport %}
-      <p class="rail">
-        {{ page.sport }}{% if page.event %} &middot; {{ page.event }}{% endif %}
-      </p>
-      {% endif %}
+{{ site.description }}
 
-      <h1>{{ page.title }}</h1>
-
-      {% if page.result %}
-      <p class="result-pill {% if page.result == 'W' %}win{% else %}loss{% endif %}">
-        {{ page.result }}{% if page.score %} &nbsp;{{ page.score }}{% endif %}
-      </p>
-      {% endif %}
-
-      <div class="post-meta">
-        <time datetime="{{ page.date | date_to_xmlschema }}">
-          {{ page.date | date: "%B %-d, %Y" }}
-        </time>
-        {% if page.author %}<span class="author">by {{ page.author }}</span>{% endif %}
-      </div>
-    </header>
-
-    <div class="post-content">
-      {{ content }}
-    </div>
-
-    <div class="share-buttons">
-      <p class="rail">Share this</p>
-      <a class="share x" target="_blank" rel="noopener"
-         href="https://x.com/intent/post?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}&via={{ site.social.x }}">X</a>
-      <a class="share fb" target="_blank" rel="noopener"
-         href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}">Facebook</a>
-      <a class="share rd" target="_blank" rel="noopener"
-         href="https://www.reddit.com/submit?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}">Reddit</a>
-    </div>
-  </div>
-</article>
-
-<div class="container">
-  <nav class="post-navigation" aria-label="More posts">
-    {% if page.previous %}
-    <a class="prev" href="{{ page.previous.url | relative_url }}">
-      <span class="rail">← Previous</span>
-      <span class="nav-title">{{ page.previous.title }}</span>
-    </a>
-    {% else %}<span></span>{% endif %}
-
-    {% if page.next %}
-    <a class="next" href="{{ page.next.url | relative_url }}">
-      <span class="rail">Next →</span>
-      <span class="nav-title">{{ page.next.title }}</span>
-    </a>
-    {% else %}<span></span>{% endif %}
-  </nav>
-
-  <p class="back-to-blog"><a href="{{ '/blog/' | relative_url }}">← All posts</a></p>
-
-  {% include social.html %}
-</div>
+{% include social.html compact=true %}
+↑
