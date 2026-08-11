@@ -210,8 +210,7 @@ hr{border:0;height:1px;background:var(--line);margin:var(--s4) 0}
 
 /* --- 5. HERO ------------------------------------------------------ */
 .hero{position:relative;background:var(--ink)}
-.hero img{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:center 65%;opacity:.55}@media (min-width:820px){.hero img{aspect-ratio:2.6/1}}
-
+.hero img{width:100%;aspect-ratio:16/9;object-fit:cover;opacity:.55}
 .hero-overlay{
   position:absolute;inset:auto 0 0 0;
   padding:var(--s3) 0 var(--s2);
