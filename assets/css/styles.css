@@ -189,7 +189,7 @@ hr{border:0;height:1px;background:var(--line);margin:var(--s4) 0}
 
 @media (max-width:820px){
   .mobile-menu-toggle{display:block}
-  .site-header nav{flex-wrap:wrap}
+  .site-header nav{flex-wrap:wrap;gap:0}
   /* In-flow accordion instead of a fixed overlay — it can't misalign
      with the bar because it never leaves the bar. */
   .site-header ul{
