@@ -3,7 +3,7 @@ layout: post
 title: "Track And Field Put Up Historic Seasons and Bring Home The National Title"
 date: 2026-05-23
 author: Admin
-image: /images/2026/Track-Field-NC.jpeg
+image: /images/2025/Track-Field-NC.jpeg
 image_credit: "Photos from University of the Cumberlands"
 ---
 

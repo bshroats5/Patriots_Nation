@@ -3,7 +3,7 @@ layout: post
 title: "Baseball and Women's Lacrosse Cap Historic Seasons with Tournament Glory"
 date: 2026-05-05
 author: Admin
-image: /images/2026/Patriots-Championships-2026.jpg
+image: /images/2025/Patriots-Championships-2026.jpg
 image_credit: "Photos from University of the Cumberlands"
 ---
 
