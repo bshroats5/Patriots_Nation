@@ -32,7 +32,6 @@ This is a massive win for Cumberlands sports culture. By eliminating ticket pric
 Never miss a moment of the action. Head over to **Patriots Nation** for complete coverage, schedules, and in-depth updates.
 
 * **Read the Official UC Release:** [Cumberlands Athletics](https://www.cumberlandspatriots.com)
-
 ## Join the Conversation
 
 **X**: @UCPatsNation 
