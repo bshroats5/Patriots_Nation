@@ -1,0 +1,13 @@
+{%- assign post = include.post -%}
+<article class="post-card">
+  <a class="post-image" href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">
+    <img src="{{ post.image | default: '/images/card-fallback.jpg' | relative_url }}"
+         alt="" width="1200" height="675" loading="lazy" decoding="async">
+  </a>
+  <div class="post-content">
+    {% if post.sport %}<p class="rail">{{ post.sport }}</p>{% endif %}
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+    <p class="excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 165 }}</p>
+  </div> 
+</article>
