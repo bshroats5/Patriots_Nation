@@ -3,7 +3,7 @@ layout: post
 title: "#10 Volleyball Returns for New Season"
 date: 2026-08-13
 author: Admin
-image: /images/2026/UC-VOlleyball.jpg
+image: /images/2026/UC-Volleyball.jpg
 image_credit: "Photos from University of the Cumberlands"
 ---
 
