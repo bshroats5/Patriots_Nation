@@ -3,7 +3,7 @@ layout: post
 title: "#10 Volleyball Returns for New Season"
 date: 2026-08-13
 author: Admin
-image: /images/2026/UC-Volleyball.jpg
+image: /images/2026/UC-VOlleyball.jpg
 image_credit: "Photos from University of the Cumberlands"
 ---
 
@@ -19,7 +19,7 @@ Then, on December 5, it ended 24-26, 25-20, 22-25, 25-17, 8-15 against McPherson
 
 The question hanging over 2026 isn't whether this program can be good again. It's narrower and more interesting than that: the Patriots kept fourteen of twenty-one players, including their setter and both primary pin hitters, and still walked away from the offseason with two specific problems that no amount of returning volume solves.
 
-![Slide 1: They went 36-1](/2026/Volleyball-Preview/uc-vb-2026-slide-01.png)
+<img src="{{ '/images/2026/Volleyball-Preview/uc-vb-2026-slide-01.png' | relative_url }}" alt="Slide 1: They went 36-1" width="700">
 
 ---
 
@@ -29,11 +29,11 @@ Start with the number that frames everything else. Of the 1,675 kills UC put dow
 
 For a program at this level, that's not a good returning class. That's essentially the same team.
 
-![Slide 2: 78% of the offense](/2026/Volleyball-Preview/uc-vb-2026-slide-02.png)
+<img src="{{ '/images/2026/Volleyball-Preview/uc-vb-2026-slide-02.png' | relative_url }}" alt="Slide 2: 78% of the offense" width="700">
 
 The assist figure is the one to sit with. **Savanah Jolly** is back for her senior season after handing out 1,208 assists at 10.98 per set, and she wasn't just a distributor. She added 105 kills of her own on .422 hitting, which would lead most rosters in efficiency outright. A returning senior setter who already knows every hitter's tempo is the single most valuable thing a team can have in August, and UC has one.
 
-![Slide 3: Savanah Jolly runs it back](/2026/Volleyball-Preview/uc-vb-2026-slide-03.png)
+<img src="{{ '/images/2026/Volleyball-Preview/uc-vb-2026-slide-03.png' | relative_url }}" alt="Slide 3: Savanah Jolly runs it back" width="700">
 
 She'll be setting the same people, too.
 
@@ -41,7 +41,7 @@ She'll be setting the same people, too.
 
 **Alana Shiery** is the third piece, and arguably the most important one. Her 237 kills came at .385, and she posted 68.0 block credit, the highest on the roster. A 6-2 junior middle who hits near .400 and blocks like that is the kind of player who quietly decides matches.
 
-![Slide 4: Both pins return](/2026/Volleyball-Preview/uc-vb-2026-slide-04.png)
+<img src="{{ '/images/2026/Volleyball-Preview/uc-vb-2026-slide-04.png' | relative_url }}" alt="Slide 4: Both pins return" width="700">
 
 ---
 
@@ -55,13 +55,13 @@ Gipson graduated after the season and has moved on to another school, where she 
 
 This is the difference between losing production and losing efficiency. You can replace 248 kills by giving somebody else 440 swings. You cannot replace what those swings *did* to opposing defenses. When Gipson was a live option in the middle, opposing blockers had to honor her, and Zampedri and Bryant got cleaner looks on the outside. That gravity is gone.
 
-![Slide 5: Kara Gipson hit .482](/2026/Volleyball-Preview/uc-vb-2026-slide-05.png)
+<img src="{{ '/images/2026/Volleyball-Preview/uc-vb-2026-slide-05.png' | relative_url }}" alt="Slide 5: Kara Gipson hit .482" width="700">
 
 The second departure is louder on the stat sheet and, in some ways, easier to solve.
 
 **Davey Slaughter** took 500 digs with her, 25.5% of the entire team's total, along with 71 aces, 112 assists, and 4.31 digs per set. She's not far away; she's listed on the 2026 staff as a Graduate Assistant. But she's not passing serve anymore, and she was absorbing an enormous share of it: 18 of the team's 83 reception errors came from a player who was clearly seeing the most balls.
 
-![Slide 6: 500 digs left the floor](/2026/Volleyball-Preview/uc-vb-2026-slide-06.png)
+<img src="{{ '/images/2026/Volleyball-Preview/uc-vb-2026-slide-06.png' | relative_url }}" alt="Slide 6: 500 digs left the floor" width="700">
 
 ---
 
@@ -73,7 +73,7 @@ The libero job is the more open competition of the two.
 
 Behind them, UC added **Josie Newcom**, a 5-11 junior transfer from Murray State who can play out of the back row or the pin, and freshman **Morgan Bentel** out of DeForest, Wisconsin. Digs return at 70.5% and aces at 75.7%, thinner than the offensive figures and the first place to look if the Patriots stumble early.
 
-![Slide 7: Wilson and Yarber inherit the jersey](/2026/Volleyball-Preview/uc-vb-2026-slide-07.png)
+<img src="{{ '/images/2026/Volleyball-Preview/uc-vb-2026-slide-07.png' | relative_url }}" alt="Slide 7: Wilson and Yarber inherit the jersey" width="700">
 
 The middle is the more consequential competition, because that's where the .482 hole is.
 
@@ -81,7 +81,7 @@ Shiery anchors it. **Elaina Fischer** returns as a sophomore after 115 kills on 
 
 Blocking returns at 69.3%, the lowest of the major categories.
 
-![Slide 8: Shiery and Fischer anchor](/2026/Volleyball-Preview/uc-vb-2026-slide-08.png)
+<img src="{{ '/images/2026/Volleyball-Preview/uc-vb-2026-slide-08.png' | relative_url }}" alt="Slide 8: Shiery and Fischer anchor" width="700">
 
 ---
 
@@ -93,7 +93,7 @@ The percentage is the thing to be honest about. She hit **.162** on 500 attacks.
 
 That's not a knock. It's a read. Junior college volume hitters often see their efficiency jump substantially when they move into a system with a returning senior setter and two pins that command attention. Frangella arrives as size, physicality, and a fourth or fifth option in a crowded middle rotation. If the percentage climbs into the .250s in this offense, UC's front-row problem gets a lot smaller.
 
-![Slide 9: Martina Frangella](/2026/Volleyball-Preview/uc-vb-2026-slide-09.png)
+<img src="{{ '/images/2026/Volleyball-Preview/uc-vb-2026-slide-09.png' | relative_url }}" alt="Slide 9: Martina Frangella" width="700">
 
 ---
 
@@ -149,8 +149,8 @@ Everything else is intact. Whether it's enough depends almost entirely on how fa
 
 Call it 29-3, and expect the number to look conservative by November. The Patriots open Friday morning against Goshen in West Palm Beach, and the answers start arriving two weeks after that.
 
-![Slide 10: The verdict](/2026/Volleyball-Preview/uc-vb-2026-slide-10.png)
+<img src="{{ '/images/2026/Volleyball-Preview/uc-vb-2026-slide-10.png' | relative_url }}" alt="Slide 10: The verdict" width="700">
 
 ---
 
-*Win-loss projection and the opinions in "Our take" are this publication's own, not a UC or conference forecast. Stats via the 2025 University of the Cumberlands season statistics report (final, Dec. 5, 2025) and the 2026 Patriots roster. Frangella's numbers via Midland College, 2025-26. Schedule and rankings via UC Athletics and the NAIA Coaches' Top 25.*
+*Win-loss projection and the opinions in "Our take" are this publication's own, not a UC or conference forecast. Stats via the 2025 University of the Cumberlands season statistics report (final, Dec. 5, 2025) and the 2026 Patriots roster. Frangella's numbers via Midland College, 2025-26. Schedule and rankings via UC Athletics and the NAIA Coaches' Top 25.
