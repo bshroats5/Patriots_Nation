@@ -3,7 +3,7 @@ layout: post
 title: "Cumberlands Announces Free Admission for ALL EVENTS"
 date: 2026-08-12
 author: Admin
-image: /images/2026/Free-Admission.jpeg
+image: /images/2026/Free-Admission.jpg
 image_credit: "Photos from University of the Cumberlands"
 ---
 
