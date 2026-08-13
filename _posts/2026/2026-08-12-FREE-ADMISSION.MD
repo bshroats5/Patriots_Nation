@@ -7,8 +7,6 @@ image: /images/2026/Free-Admission.jpg
 image_credit: "Photos from University of the Cumberlands"
 ---
 
-# Big Announcement for Patriot Nation: Free Admission for All Home UC Athletic Events
-
 Big news for Patriot Nation! Beginning with the 2026-27 school year, admission to all University of the Cumberlands home athletic events, including postseason matchups, will be **100% free** for all fans.
 
 According to an official announcement from UC Athletics, the move reflects the department's deep commitment to building a top-tier game-day environment and strengthening its bond with the Williamsburg community. Whether you are a lifelong local or a dedicated student-athlete supporter, there has never been a better time to pack the stands and bring the noise across every venue on campus.
