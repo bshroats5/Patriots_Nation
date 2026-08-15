@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Six Straight Sets, One Big Question: Inside Cumberlands' Day One at Keiser"
-date: 2026-08-15
+date: 2026-08-14
 author: Bret
 sport: "Volleyball"
 event: "2026 Keiser Summer Classic"
