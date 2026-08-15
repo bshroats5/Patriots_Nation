@@ -7,7 +7,7 @@ sport: "Volleyball"
 event: "2026 Keiser Summer Classic"
 result: "W"
 score: "2-0"
-image: /images/2026/2026-08-14-vb.jpg
+image: images/2026/2026-8-14-vb.jpg
 image_credit: "Photos from University of the Cumberlands"
 description: "Savanah Jolly reached 2,000 career assists, the #10 Patriots swept both matches, and the box scores say the second one was harder than the scoreboard did."
 ---
