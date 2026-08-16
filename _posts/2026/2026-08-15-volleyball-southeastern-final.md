@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Two Sets From the Title: Cumberlands Falls to Southeastern in Five"
+title: "One Set From the Title: Cumberlands Falls to Southeastern in Five"
 date: 2026-08-15
 author: Bret
 sport: "Volleyball"
