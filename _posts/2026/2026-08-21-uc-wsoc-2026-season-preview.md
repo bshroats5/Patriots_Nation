@@ -4,7 +4,7 @@ title: "One Goal From Everything: Cumberlands Women's Soccer 2026 Season Preview
 date: 2026-08-20
 categories: womens-soccer
 tags: [NAIA, preview, womens-soccer, cumberlands]
-image: images/2026/Womens-Soccer-Preview/uc-wsoc-2026-slide-01.png
+image: images/2026/26-8-21-wsoc.png
 ---
 
 Last season ended one goal short of a national championship, and that's the only way to start this preview. The 2026 Patriots didn't lose a bunch of production this offseason. They lost a single game, on penalties, and now they get to try again with almost everyone who lived through it.
