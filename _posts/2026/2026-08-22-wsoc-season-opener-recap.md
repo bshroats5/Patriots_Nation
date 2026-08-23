@@ -7,7 +7,7 @@ sport: "Women's Soccer"
 event: "Season Opener"
 result: "W"
 score: "3-0"
-image: /images/2026/2026-8-22-wsoc.jpg
+image: /images/2026/2026-8-22-wsoc.png
 image_credit: "Photos from University of the Cumberlands"
 description: "Three different goalscorers and a shutout at the UC Soccer Complex. Cumberlands outshot Union Commonwealth 21-0 in the season opener."
 ---
