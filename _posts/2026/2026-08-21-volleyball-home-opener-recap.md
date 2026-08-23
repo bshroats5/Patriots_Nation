@@ -7,7 +7,7 @@ sport: "Volleyball"
 event: "Home Opener Tri-Match"
 result: "W"
 score: "2-0"
-image: /images/2026/2026-8-21-vb.jpg
+image: /images/2026/2026-8-21-vb.png
 image_credit: "Photos from University of the Cumberlands"
 description: "Sara Zampedri passed 1,000 career digs, the Patriots opened the UC Volleyball Gym with two sweeps, and Cumberlands moved to 5-1 on the season."
 ---
