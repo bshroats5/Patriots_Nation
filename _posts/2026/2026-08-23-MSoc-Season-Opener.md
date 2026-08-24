@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "First Goal, Full Points Earned: #4 Cumberlands Draws #2 WVU Tech 1-1"
+title: "First Goal, 1 Point Earned: #4 Cumberlands Draws #2 WVU Tech 1-1"
 date: 2026-08-23
 author: Bret
 sport: "Men's Soccer"
 event: "Season Opener"
-result: "T"
+result: "D"
 score: "1-1"
 image: /images/2026/2026-8-23-msoc.jpg
 image_credit: "Photos from University of the Cumberlands"
