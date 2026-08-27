@@ -5,7 +5,7 @@ date: 2026-08-26 21:30:00 -0400
 categories: [football]
 tags: [football, analytics, season-preview, 2026]
 excerpt: "Cumberlands outgained its 2025 opponents by 769 yards, held the ball nearly eight minutes longer per game, and finished 4-6. Here is what actually went wrong, what returns, and what the 2026 schedule is really asking for."
-image: images/2026/fb.jpg
+image: images/2026/Football-Preview/fb.jpg
 ---
 
 Cumberlands finished 4-6 last season. Cumberlands also outscored its opponents by twenty points, outgained them by 769 yards, and held the football nearly eight minutes longer per game. Both of those sentences are true, and the space between them is what this season is about.
