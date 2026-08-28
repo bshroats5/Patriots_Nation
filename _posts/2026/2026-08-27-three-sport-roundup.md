@@ -4,7 +4,7 @@ title: "A Perfect Thursday: Three Sports, Three Wins for Patriots Nation"
 date: 2026-08-27
 author: Admin
 event: "Multi-Sport Roundup"
-image: /images/2026/2026-8-27-wsoc-little-celebration.jpg
+image: /images/2026/wsoc-little-celebration.jpg
 image_credit: "Photos from University of the Cumberlands"
 description: "Women's soccer, men's soccer, and football all won on the same Thursday. A look at all three results, from a late winner to a season-opening shootout."
 ---
