@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "By the Numbers: The 2026 Patriots Were Better Than 4-6, and the Math Says So"
-date: 2026-08-26 21:30:00 -0400
+date: 2026-08-26
 categories: [football]
 tags: [football, analytics, season-preview, 2026]
 excerpt: "Cumberlands outgained its 2025 opponents by 769 yards, held the ball nearly eight minutes longer per game, and finished 4-6. Here is what actually went wrong, what returns, and what the 2026 schedule is really asking for."
