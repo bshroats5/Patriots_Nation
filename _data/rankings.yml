@@ -16,21 +16,42 @@
 
 - sport: "Volleyball"
   gender: "Women's"
-  rank: 3
+  rank: 10
   poll: "NAIA Coaches' Poll"
-  record: "27-0"
-  poll_url: "https://naia.prestosports.com/sports/wvball/2025-26/rankings"
+  record: "9-1"
+  poll_url: "https://www.naia.org/sports/womens-volleyball/polls/"
 
 - sport: "Soccer"
   gender: "Women's"
-  rank: 9
-  poll: "NAIA Coaches' Poll"
-  record: "17-4-3"
-  poll_url: "https://naia.prestosports.com/sports/wsoc/2025-26/rankings"
+  rank: 1
+  poll: "NAIA Poll"
+  record: "2-0-1"
+  poll_url: "https://www.naia.org/sports/womens-soccer/polls/"
 
 - sport: "Soccer"
   gender: "Men's"
   rank: 14
-  poll: "NAIA Coaches' Poll"
-  record: ""
-  poll_url: "https://naia.prestosports.com/sports/msoc/2025-26/rankings"
+  poll: "NAIA Poll"
+  record: "1-1-1"
+  poll_url: "https://www.naia.org/sports/mens-soccer/polls/"
+
+  #sport: "Football"
+  #gender: "Men's"
+  #rank: 5
+  #poll: "NAIA Poll"
+  #record: "3-0"
+  #poll_url: "https://www.naia.org/sports/mens-football/polls/"
+
+  Sport: "Cross Country"
+  gender: "Women's"
+  rank: 11
+  poll: "NAIA Poll"
+  Points: "363"
+  poll_url: "https://www.naia.org/sports/womens-cross-country/ratings/"
+
+  Sport: "Cross Country"
+  gender: "Men's"
+  rank: 1
+  poll: "NAIA Poll"
+  Points: "542"
+  poll_url: "https://www.naia.org/sports/mens-cross-country/ratings

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "First Goal, 1 Point Earned: #4 Cumberlands Draws #2 WVU Tech 1-1"
+title: "First Goal, Full Points Earned: #4 Cumberlands Draws #2 WVU Tech 1-1"
 date: 2026-08-23
 author: Bret
 sport: "Men's Soccer"
 event: "Season Opener"
-result: "D"
+result: "T"
 score: "1-1"
-image: /images/2026/2026-08-23-msoc.jpg
+image: /images/2026/2026-8-23-msoc.jpg
 image_credit: "Photos from University of the Cumberlands"
 description: "Dunsting Cohen Jr. scored his first collegiate goal to level #2 WVU Tech in the 56th minute. Two top-five teams, a 14-8 shot edge, and a 1-1 draw at Paul Cline Stadium."
 ---
