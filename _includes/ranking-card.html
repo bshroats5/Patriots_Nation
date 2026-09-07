@@ -1,0 +1,19 @@
+{%- comment -%}
+  Renders one ranking card. Expects a single param: r (one entry from
+  site.data.rankings). Skips silently if "sport" is missing so a
+  malformed data entry never renders a blank/confusing card.
+{%- endcomment -%}
+{%- assign r = include.r -%}
+{%- if r.sport and r.sport != "" -%}
+<div class="ranking-card">
+  <div class="ranking-rank">#{{ r.rank | default: "?" }}</div>
+  <div class="ranking-body">
+    <h2 class="ranking-sport">{% if r.gender and r.gender != "" %}{{ r.gender | escape }} {% endif %}{{ r.sport | escape }}</h2>
+    <p class="ranking-poll">{{ r.poll | escape }}</p>
+    {% if r.record and r.record != "" %}<p class="ranking-record">{{ r.record | escape }}</p>{% endif %}
+    {% if r.poll_url and r.poll_url != "" %}
+    <a class="ranking-link" href="{{ r.poll_url | escape }}" target="_blank" rel="noopener">View full poll &rarr;</a>
+    {% endif %}
+  </div>
+</div>
+{%- endif -%}
