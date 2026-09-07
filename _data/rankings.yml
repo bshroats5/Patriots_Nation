@@ -42,7 +42,7 @@
   #record: "3-0"
   #poll_url: "https://www.naia.org/sports/mens-football/polls/"
 
-  - sport: "Cross Country"
+- sport: "Cross Country"
   gender: "Women's"
   rank: 11
   poll: "NAIA Poll"
