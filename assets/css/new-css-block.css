@@ -1,0 +1,69 @@
+
+/* --- RANKINGS PAGE -------------------------------------------------- */
+.rankings-page{padding:var(--s4) 0 var(--s5)}
+.rankings-grid{
+  display:grid;grid-template-columns:1fr;gap:var(--s2);
+}
+@media (min-width:640px){.rankings-grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:960px){.rankings-grid{grid-template-columns:repeat(3,1fr);gap:var(--s3)}}
+
+.ranking-card{
+  background:var(--paper);border:1px solid var(--line);
+  display:flex;align-items:flex-start;gap:var(--s2);
+  padding:var(--s2);
+}
+.ranking-rank{
+  font-family:var(--display);font-size:34px;line-height:1;
+  color:var(--red);flex-shrink:0;min-width:56px;
+}
+.ranking-sport{font-size:20px;margin-bottom:4px}
+.ranking-poll{
+  font-family:var(--mono);font-size:11px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--slate);margin-bottom:6px;
+}
+.ranking-record{font-size:15px;color:var(--ink-soft);margin-bottom:8px}
+.ranking-link{
+  font-family:var(--mono);font-size:12px;letter-spacing:.08em;
+  color:var(--brass);text-decoration:none;
+}
+.ranking-link:hover{text-decoration:underline}
+
+/* --- SOCIAL PAGE ------------------------------------------------------ */
+.social-page{padding:var(--s4) 0 var(--s5)}
+
+.social-embeds{
+  display:grid;grid-template-columns:1fr;gap:var(--s3);
+  margin-bottom:var(--s5);
+}
+@media (min-width:820px){.social-embeds{grid-template-columns:1fr 1fr}}
+.social-embed-col{background:var(--paper);border:1px solid var(--line);padding:var(--s2)}
+.social-embed-title{
+  font-size:18px;margin-bottom:var(--s2);
+  border-bottom:3px solid var(--brass);padding-bottom:8px;
+}
+
+.section-title{font-size:22px;margin-bottom:6px}
+.section-note{color:var(--slate);font-size:14px;margin-bottom:var(--s2);max-width:60ch}
+
+.highlight-grid{
+  display:grid;grid-template-columns:1fr;gap:var(--s2);
+}
+@media (min-width:640px){.highlight-grid{grid-template-columns:repeat(3,1fr)}}
+
+.highlight-card{
+  background:var(--paper);border:1px solid var(--line);
+  display:block;text-decoration:none;color:inherit;
+  transition:transform .18s ease,box-shadow .18s ease;
+}
+.highlight-card:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(14,31,60,.12)}
+.highlight-card img{width:100%;aspect-ratio:1/1;object-fit:cover}
+.highlight-body{padding:var(--s2)}
+.highlight-platform{
+  font-family:var(--mono);font-size:11px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--red);display:block;margin-bottom:4px;
+}
+.highlight-date{
+  font-family:var(--mono);font-size:11px;color:var(--slate);
+  display:block;margin-bottom:8px;
+}
+.highlight-caption{font-size:14px;color:var(--ink-soft);margin:0}

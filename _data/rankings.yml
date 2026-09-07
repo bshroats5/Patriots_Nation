@@ -1,0 +1,36 @@
+# Patriots Nation — NAIA National Rankings
+# Update this list whenever a new poll drops. Only include sports that
+# are currently ranked; delete or comment out ones that fall out.
+#
+# Required: sport, rank, poll — an entry missing "sport" is skipped
+# entirely rather than showing a blank card.
+# Optional: gender, record, poll_url — safe to leave blank ("").
+#
+# Fields:
+#   sport      - Display name, e.g. "Volleyball" or "Soccer"
+#   gender     - "Men's", "Women's", or "" (leave blank for co-ed/unisex sports)
+#   rank       - Current national rank (number only, no # sign)
+#   poll       - Name of the poll, e.g. "NAIA Coaches' Poll"
+#   record     - Optional current record, e.g. "27-0"
+#   poll_url   - Optional link to the official poll page
+
+- sport: "Volleyball"
+  gender: "Women's"
+  rank: 3
+  poll: "NAIA Coaches' Poll"
+  record: "27-0"
+  poll_url: "https://naia.prestosports.com/sports/wvball/2025-26/rankings"
+
+- sport: "Soccer"
+  gender: "Women's"
+  rank: 9
+  poll: "NAIA Coaches' Poll"
+  record: "17-4-3"
+  poll_url: "https://naia.prestosports.com/sports/wsoc/2025-26/rankings"
+
+- sport: "Soccer"
+  gender: "Men's"
+  rank: 14
+  poll: "NAIA Coaches' Poll"
+  record: ""
+  poll_url: "https://naia.prestosports.com/sports/msoc/2025-26/rankings"
