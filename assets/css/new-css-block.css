@@ -9,12 +9,11 @@
 
 .ranking-card{
   background:var(--paper);border:1px solid var(--line);
-  display:flex;align-items:flex-start;gap:var(--s2);
   padding:var(--s2);
 }
-.ranking-rank{
-  font-family:var(--display);font-size:34px;line-height:1;
-  color:var(--red);flex-shrink:0;min-width:56px;
+.ranking-rank-inline{
+  font-family:var(--display);font-size:22px;
+  color:var(--red);
 }
 .ranking-sport{font-size:20px;margin-bottom:4px}
 .ranking-poll{
