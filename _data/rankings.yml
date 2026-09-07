@@ -35,23 +35,23 @@
   record: "1-1-1"
   poll_url: "https://www.naia.org/sports/mens-soccer/polls/"
 
-  #sport: "Football"
+  # - sport: "Football"
   #gender: "Men's"
   #rank: 5
   #poll: "NAIA Poll"
   #record: "3-0"
   #poll_url: "https://www.naia.org/sports/mens-football/polls/"
 
-  Sport: "Cross Country"
+  - sport: "Cross Country"
   gender: "Women's"
   rank: 11
   poll: "NAIA Poll"
-  Points: "363"
+  record: "363 pts"
   poll_url: "https://www.naia.org/sports/womens-cross-country/ratings/"
 
-  Sport: "Cross Country"
+- sport: "Cross Country"
   gender: "Men's"
   rank: 1
   poll: "NAIA Poll"
-  Points: "542"
-  poll_url: "https://www.naia.org/sports/mens-cross-country/ratings
+  record: "542 pts"
+  poll_url: "https://www.naia.org/sports/mens-cross-country/ratings/"
