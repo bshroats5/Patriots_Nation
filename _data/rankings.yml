@@ -40,7 +40,7 @@
   rank: RV
   poll: "NAIA Poll"
   record: "4-0"
-  poll_url: "https://www.naia.org/sports/mens-football/polls/"
+  poll_url: "https://www.naia.org/sports/football/polls/"
 
 - sport: "Cross Country"
   gender: "Women's"
