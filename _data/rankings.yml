@@ -44,14 +44,14 @@
 
 - sport: "Cross Country"
   gender: "Women's"
-  rank: 11
+  rank: 19
   poll: "NAIA Poll"
-  record: "363 pts"
+  record: "221 pts"
   poll_url: "https://www.naia.org/sports/womens-cross-country/ratings/"
 
 - sport: "Cross Country"
   gender: "Men's"
   rank: 1
   poll: "NAIA Poll"
-  record: "542 pts"
+  record: "528 pts"
   poll_url: "https://www.naia.org/sports/mens-cross-country/ratings/"
