@@ -55,3 +55,17 @@
   poll: "NAIA Poll"
   record: "528 pts"
   poll_url: "https://www.naia.org/sports/mens-cross-country/ratings/"
+
+  sport: "Basketball"
+  gender: "Woen's"
+  rank: RV
+  poll: "NAIA Poll"
+  record: "0-0"
+  poll_url: "https://www.naia.org/sports/womens-basketball/polls/"
+
+  sport: "Basketball"
+  gender: "Men's"
+  rank: 10
+  poll: "NAIA Poll"
+  record: "0-0"
+  poll_url: "https://www.naia.org/sports/mens-basketball/polls/
