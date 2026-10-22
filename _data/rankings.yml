@@ -21,16 +21,16 @@
 
 - sport: "Volleyball"
   gender: "Women's"
-  rank: 21
+  rank: 25
   poll: "NAIA Coaches' Poll"
-  record: "13-3"
+  record: "23-4"
   poll_url: "https://www.naia.org/sports/womens-volleyball/polls/"
 
 - sport: "Soccer"
   gender: "Women's"
   rank: 6
   poll: "NAIA Poll"
-  record: "5-1-3"
+  record: "6-2-3"
   poll_url: "https://www.naia.org/sports/womens-soccer/polls/"
 
 #- sport: "Soccer"
@@ -49,16 +49,16 @@
 
 - sport: "Cross Country"
   gender: "Women's"
-  rank: 19
+  rank: 25
   poll: "NAIA Poll"
-  record: "221 pts"
+  record: "134 pts"
   poll_url: "https://www.naia.org/sports/womens-cross-country/ratings/"
 
 - sport: "Cross Country"
   gender: "Men's"
   rank: 1
   poll: "NAIA Poll"
-  record: "528 pts"
+  record: "560 pts"
   poll_url: "https://www.naia.org/sports/mens-cross-country/ratings/"
 
 - sport: "Basketball"
