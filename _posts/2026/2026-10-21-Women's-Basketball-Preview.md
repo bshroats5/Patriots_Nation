@@ -3,7 +3,7 @@ layout: post
 title: "2026 - 2027 Women's Basketball Preview"
 date: 2026-10-21
 author: admin
-image: /images/2026//WBB-Preview/aden clark.jpg
+image: /images/2026/WBB-Preview/aden clark.jpg
 image_credit: "Photos from University of the Cumberlands"
 description: "An analytical look at our upcoming season"
 ---

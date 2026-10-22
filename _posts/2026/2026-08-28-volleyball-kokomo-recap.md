@@ -2,7 +2,7 @@
 layout: post
 title: "Two Matches, Two Wins: Patriots Survive Five Sets, Then Sweep a Ranked Host"
 date: 2026-08-28
-author: Bret
+author: admin
 event: "Volleyball at Kokomo"
 image: /images/2026/2026-8-28-wvb-kokomo.png
 image_credit: "Photos from University of the Cumberlands"

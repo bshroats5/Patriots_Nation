@@ -2,7 +2,7 @@
 layout: post
 title: "Home Opener, Handled Twice: Patriots Sweep Andrew and Bluefield"
 date: 2026-08-21
-author: Bret
+author: admin
 sport: "Volleyball"
 event: "Home Opener Tri-Match"
 result: "W"

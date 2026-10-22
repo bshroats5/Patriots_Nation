@@ -2,7 +2,7 @@
 layout: post
 title: "Clean Sheet to Open: Cumberlands Blanks Union Commonwealth 3-0"
 date: 2026-08-22
-author: Bret
+author: admin
 sport: "Women's Soccer"
 event: "Season Opener"
 result: "W"

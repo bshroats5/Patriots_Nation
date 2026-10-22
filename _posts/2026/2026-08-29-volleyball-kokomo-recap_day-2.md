@@ -2,7 +2,7 @@
 layout: post
 title: "Brynnley Bryant Takes Over: Two More Wins at Kokomo"
 date: 2026-08-29
-author: Bret
+author: admin
 event: "Volleyball at Kokomo"
 image: /images/2026/2026-8-21-vb.png
 image_credit: "Photos from University of the Cumberlands"

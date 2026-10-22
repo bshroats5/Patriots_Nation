@@ -2,7 +2,7 @@
 layout: post
 title: "Zampedri and Bryant Lead a Straight-Set Sweep at Indiana Southeast"
 date: 2026-09-22
-author: Bret
+author: admin
 event: "Volleyball at Indiana Southeast"
 image: /images/2026/2026-9-22-vb.png
 image_credit: "Photos from University of the Cumberlands"
