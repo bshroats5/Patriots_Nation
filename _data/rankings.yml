@@ -1,15 +1,20 @@
-# Patriots Nation — NAIA National Rankings
+# Patriots Nation: NAIA National Rankings
 # Update this list whenever a new poll drops. Only include sports that
 # are currently ranked; delete or comment out ones that fall out.
 #
-# Required: sport, rank, poll — an entry missing "sport" is skipped
+# Required: sport, rank, poll. An entry missing "sport" is skipped
 # entirely rather than showing a blank card.
-# Optional: gender, record, poll_url — safe to leave blank ("").
+# Optional: gender, record, poll_url. Safe to leave blank ("").
+#
+# Format rules (a mistake here stops the whole site from building):
+#   - Every entry starts with "- " at the very left edge, no spaces before it.
+#   - The fields underneath are indented exactly 2 spaces.
+#   - Every opening quote needs a closing quote.
 #
 # Fields:
 #   sport      - Display name, e.g. "Volleyball" or "Soccer"
-#   gender     - "Men's", "Women's", or "" (leave blank for co-ed/unisex sports)
-#   rank       - Current national rank (number only, no # sign)
+#   gender     - "Men's", "Women's", or "" (leave blank for co-ed sports)
+#   rank       - Current national rank (number only, no # sign), or "RV"
 #   poll       - Name of the poll, e.g. "NAIA Coaches' Poll"
 #   record     - Optional current record, e.g. "27-0"
 #   poll_url   - Optional link to the official poll page
@@ -29,7 +34,7 @@
   poll_url: "https://www.naia.org/sports/womens-soccer/polls/"
 
 #- sport: "Soccer"
-# gender: "Men's"
+#  gender: "Men's"
 #  rank: 23
 #  poll: "NAIA Poll"
 #  record: "2-3-1"
@@ -56,16 +61,16 @@
   record: "528 pts"
   poll_url: "https://www.naia.org/sports/mens-cross-country/ratings/"
 
-  sport: "Basketball"
-  gender: "Woen's"
-  rank: RV
+- sport: "Basketball"
+  gender: "Women's"
+  rank: "RV"
   poll: "NAIA Poll"
   record: "0-0"
   poll_url: "https://www.naia.org/sports/womens-basketball/polls/"
 
-  sport: "Basketball"
+- sport: "Basketball"
   gender: "Men's"
   rank: 10
   poll: "NAIA Poll"
   record: "0-0"
-  poll_url: "https://www.naia.org/sports/mens-basketball/polls/
+  poll_url: "https://www.naia.org/sports/mens-basketball/polls/"
