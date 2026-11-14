@@ -51,7 +51,7 @@
   gender: "Women's"
   rank: 16
   poll: "NAIA Poll"
-  record: "275 pts"
+  record: "211 pts"
   poll_url: "https://www.naia.org/sports/womens-cross-country/ratings/"
 
 - sport: "Cross Country"
@@ -70,7 +70,21 @@
 
 - sport: "Basketball"
   gender: "Men's"
-  rank: 10
+  rank: 8
   poll: "NAIA Poll"
-  record: "0-0"
+  record: "6-0"
   poll_url: "https://www.naia.org/sports/mens-basketball/polls/"
+
+- sport: "Wrestling"
+  gender: "Men's"
+  rank: 12
+  poll: "NAIA Poll"
+  points: "111"
+  poll_url: "https://www.naia.org/sports/mens-wrestling/ratings/"
+
+  sport: "Wrestling"
+  gender: "Women's"
+  rank: 5
+  poll: "NAIA Poll"
+  points: "138"
+  poll_url: "https://www.naia.org/sports/womens-wrestling/ratings/"
