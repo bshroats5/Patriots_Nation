@@ -77,9 +77,9 @@
 
 - sport: "Wrestling"
   gender: "Men's"
-  rank: 12
+  rank: 11
   poll: "NAIA Poll"
-  points: "111"
+  points: "108"
   poll_url: "https://www.naia.org/sports/mens-wrestling/ratings/"
 
   sport: "Wrestling"
