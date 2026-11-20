@@ -1,0 +1,12 @@
+{%- comment -%}
+  Renders one national title. Expects param: t (one entry from
+  site.data.national_titles). Skips silently if "sport" is missing.
+{%- endcomment -%}
+{%- assign t = include.t -%}
+{%- if t.sport and t.sport != "" -%}
+<div class="title-card">
+  <p class="title-year">{{ t.year | escape }}</p>
+  <h2 class="title-sport">{% if t.gender and t.gender != "" %}{{ t.gender | escape }} {% endif %}{{ t.sport | escape }}</h2>
+  {% if t.detail and t.detail != "" %}<p class="title-detail">{{ t.detail | escape }}</p>{% endif %}
+</div>
+{%- endif -%}
