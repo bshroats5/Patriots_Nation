@@ -521,3 +521,12 @@ hr{border:0;height:1px;background:var(--line);margin:var(--s4) 0}
 @media (min-width:700px){.blog-post{flex-direction:row}}
 .blog-post img{width:100%;max-width:260px;aspect-ratio:16/9;object-fit:cover}
 .blog-content h2{color:var(--ink);font-size:24px;margin-bottom:8px}
+
+/* National titles page. Paste at the very bottom of assets/css/styles.css */
+.titles-page{padding-top:var(--s4);padding-bottom:var(--s5)}
+.titles-count{font-family:var(--mono);font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--slate);margin-bottom:var(--s2)}
+.titles-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:var(--s2)}
+.title-card{background:var(--paper);border:1px solid var(--line);border-top:4px solid var(--red);padding:var(--s2)}
+.title-year{font-family:var(--display);font-weight:900;font-size:48px;line-height:1;color:var(--brass);margin:0 0 10px}
+.title-sport{font-family:var(--display);font-weight:800;font-size:24px;line-height:1.1;text-transform:uppercase;margin:0}
+.title-detail{font-size:15px;color:var(--slate);margin:10px 0 0}
