@@ -1,0 +1,24 @@
+# National championships. Newest first is not required; the page sorts by year.
+# Every entry starts with "- " and fields are indented 2 spaces.
+# year: a four digit number. sport: the team. gender: optional. detail: optional note.
+
+- year: 2025
+  gender: "Women's"
+  sport: "Track and Field"
+
+- year: 2024
+  gender: "Men's"
+  sport: "Outdoor Track and Field"
+
+- year: 2024
+  gender: "Men's"
+  sport: "Indoor Track and Field"
+
+- year: 2023
+  gender: "Women's"
+  sport: "Soccer"
+
+# Pending confirmation (the May 2026 recap post says the men won the outdoor title):
+# - year: 2026
+#   gender: "Men's"
+#   sport: "Outdoor Track and Field"
