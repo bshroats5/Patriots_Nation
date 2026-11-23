@@ -2,6 +2,10 @@
 # Every entry starts with "- " and fields are indented 2 spaces.
 # year: a four digit number. sport: the team. gender: optional. detail: optional note.
 
+- year: 2026
+  gender: "Men's"
+  sport: "Cross Country"
+
 - year: 2025
   gender: "Women's"
   sport: "Track and Field"
